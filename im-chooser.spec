@@ -1,6 +1,6 @@
 Name:		im-chooser
 Version:	1.3.1
-Release:	2%{?dist}
+Release:	3%{?dist}
 License:	GPLv2+
 URL:		http://fedorahosted.org/im-chooser/
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
@@ -10,6 +10,7 @@ BuildRequires:	imsettings-devel >= 0.106.0
 Source0:	http://fedorahosted.org/releases/i/m/%{name}/%{name}-%{version}.tar.bz2
 Patch0:		im-chooser-disable-status-icon.patch
 Patch1:		im-chooser-fix-translations.patch
+Patch2:		im-chooser-make-resizable.patch
 
 Summary:	Desktop Input Method configuration tool
 Group:		Applications/System
@@ -25,6 +26,7 @@ to be used or disable Input Method usage on the desktop.
 %setup -q
 %patch0 -p1 -b .0-status-icon
 %patch1 -p2 -b .1-translations
+%patch2 -p1 -b .2-resizable
 
 %build
 %configure
@@ -70,6 +72,9 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %changelog
+* Wed Jan 19 2011 Akira TAGOH <tagoh@redhat.com> - 1.3.1-3
+- backport a patch to make the window resizable. (#634146)
+
 * Tue Aug 10 2010 Akira TAGOH <tagoh@redhat.com> - 1.3.1-2
 - Update translations. (#567511)
 
