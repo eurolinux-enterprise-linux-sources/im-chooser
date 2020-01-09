@@ -1,0 +1,179 @@
+# Ukrainian translation to im-chooser.
+# Copyright (C) Free Software Foundation
+# This file is distributed under the same license as the hwbrowser package.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: im-chooser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-23 23:38+0900\n"
+"PO-Revision-Date: 2010-04-11 14:48+0900\n"
+"Last-Translator: Maxim Dziumanenko <dziumanenko@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/im-chooser-simple.c:124
+msgid "X applications"
+msgstr "програм X"
+
+#: ../src/im-chooser-simple.c:125
+msgid "GTK+ applications"
+msgstr "програм GTK+ "
+
+#: ../src/im-chooser-simple.c:126
+msgid "Qt applications"
+msgstr "програм Qt"
+
+#: ../src/im-chooser-simple.c:178
+msgid "Updating Input Method list"
+msgstr "Оновлення списку методів вводу"
+
+#: ../src/im-chooser-simple.c:281
+msgid "Unable to get the information"
+msgstr "Не вдається отримати інформацію"
+
+#: ../src/im-chooser-simple.c:358
+msgid "Failed to start Input Method"
+msgstr "Не вдається ініціалізувати метод вводу"
+
+#: ../src/im-chooser-simple.c:385
+msgid "Failed to stop Input Method"
+msgstr "Не вдалось зупинити метод вводу"
+
+#: ../src/im-chooser-simple.c:490
+#, c-format
+msgid "Starting Input Method - %s"
+msgstr "Ініціалізація методу вводу - %s"
+
+#: ../src/im-chooser-simple.c:507
+#, c-format
+msgid "Stopping Input Method - %s"
+msgstr "Зупинка методу вводу - %s"
+
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except X applications and Qt applications</i></small>"
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except X applications and GTK+ applications</i></small>"
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except GTK+ applications and Qt applications</i></small>"
+#: ../src/im-chooser-simple.c:593 ../src/im-chooser-simple.c:596
+#: ../src/im-chooser-simple.c:599
+#, c-format
+msgid ", except %s and %s"
+msgstr " за винятком %s и %s"
+
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except X applications</i></small>"
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except GTK+ applications</i></small>"
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except Qt applications</i></small>"
+#: ../src/im-chooser-simple.c:602 ../src/im-chooser-simple.c:605
+#: ../src/im-chooser-simple.c:608
+#, c-format
+msgid ", except %s"
+msgstr " за винятком %s"
+
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except GTK+ applications</i></small>"
+#: ../src/im-chooser-simple.c:613
+#, c-format
+msgid ""
+"<small><i>Note: this change will not take effect until you next log in%s</"
+"i></small>"
+msgstr ""
+"<small><i>Зауваження: ця зміна не набере сили до наступного входу %s</i></"
+"small>"
+
+#: ../src/im-chooser-simple.c:672
+msgid "Parent Window"
+msgstr "Батьківське вікно"
+
+#: ../src/im-chooser-simple.c:673
+msgid "GtkWindow that points to the parent window"
+msgstr "GtkWindow вказує на батьківське вікно"
+
+#: ../src/im-chooser-simple.c:678
+msgid "Note type"
+msgstr "Тип приміток"
+
+#: ../src/im-chooser-simple.c:679
+msgid "A enum value to determine which notes should be displayed"
+msgstr "Значення типу enum, що визначає показані значення"
+
+#. setup a progress window
+#: ../src/im-chooser-simple.c:722
+msgid "Work in progress..."
+msgstr "У процесі..."
+
+#: ../src/im-chooser-simple.c:772
+#, c-format
+msgid "Unable to communicate to IMSettings services"
+msgstr "Не вдається зв'язатися зі службами IMSettings"
+
+#: ../src/im-chooser-simple.c:773
+msgid "Version mismatch"
+msgstr "Невідповідність версій"
+
+#: ../src/im-chooser-simple.c:787
+msgid "Unable to gather current status"
+msgstr "Не вдається отримати поточний статус"
+
+#: ../src/im-chooser-simple.c:793
+msgid "Unable to get Input Method information"
+msgstr "Не вдається отримати інформацію про метод вводу"
+
+#: ../src/im-chooser-simple.c:840
+#, c-format
+msgid "Use %s"
+msgstr "Використовувати %s"
+
+#: ../src/im-chooser-simple.c:843
+msgid " (legacy)"
+msgstr " (застаріло)"
+
+#: ../src/im-chooser-simple.c:845
+msgid " (recommended)"
+msgstr " (рекомендується)"
+
+#: ../src/im-chooser-simple.c:960
+msgid "_Enable input method feature"
+msgstr "_Увімкнути методи вводу"
+
+#: ../src/im-chooser-simple.c:968
+msgid "<b>Input Method</b>"
+msgstr "<b>Метод вводу</b>"
+
+#: ../src/im-chooser-simple.c:1001
+msgid "Input Method _Preferences..."
+msgstr "_Параметри методів вводу..."
+
+#: ../src/im-chooser-simple.c:1028
+msgid "Show the status icon"
+msgstr "Показати значок статусу"
+
+#: ../src/main.c:53
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No input method is available</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Немає доступних методів вводу</span>"
+
+#: ../src/main.c:56
+msgid "Please install any input methods before running if you like."
+msgstr "Встановіть бажані методи воду перед їх використанням."
+
+#: ../src/main.c:144
+msgid "IM Chooser - Input Method configuration tool"
+msgstr "Програма налаштовування методу вводу - IM Chooser"
+
+#: ../src/main.c:173
+msgid "Log Out"
+msgstr "Вийти"
+
+#: ../src/im-chooser.desktop.in.in.h:1 ../src/xfce4-im-chooser.desktop.in.h:1
+msgid ""
+"Choose the input method to be used or disable the input method usage on the "
+"desktop"
+msgstr "Виберіть метод вводу чи вимкніть використання методу вводу"
+
+#: ../src/im-chooser.desktop.in.in.h:2 ../src/xfce4-im-chooser.desktop.in.h:2
+msgid "Input Method"
+msgstr "Метод вводу"
+
+

@@ -1,0 +1,465 @@
+# Finnish translations for im-chooser package.
+# Copyright (C) 2006 Red Hat, Inc. All rights reserved.
+# This file is distributed under the same license as the im-chooser package.
+#
+# Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>, 2006-2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: im-chooser 0.3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-23 23:38+0900\n"
+"PO-Revision-Date: 2009-03-23 13:02+0200\n"
+"Last-Translator: Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>\n"
+"Language-Team: Finnish <laatu@lokalisointi.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/im-chooser-simple.c:124
+msgid "X applications"
+msgstr "X-ohjelmissa"
+
+#: ../src/im-chooser-simple.c:125
+msgid "GTK+ applications"
+msgstr "GTK+-ohjelmissa"
+
+#: ../src/im-chooser-simple.c:126
+msgid "Qt applications"
+msgstr "Qt-ohjelmissa"
+
+#: ../src/im-chooser-simple.c:178
+msgid "Updating Input Method list"
+msgstr "Päivitetään syöttömenetelmäluetteloa"
+
+#: ../src/im-chooser-simple.c:281
+msgid "Unable to get the information"
+msgstr "Tietojen hakeminen epäonnistui"
+
+#: ../src/im-chooser-simple.c:358
+msgid "Failed to start Input Method"
+msgstr "Syöttömenetelmän käynnistäminen epäonnistui"
+
+#: ../src/im-chooser-simple.c:385
+msgid "Failed to stop Input Method"
+msgstr "Syöttömenetelmän pysäyttäminen epäonnistui"
+
+#: ../src/im-chooser-simple.c:490
+#, c-format
+msgid "Starting Input Method - %s"
+msgstr "Käynnistetään syöttömenetelmä - %s"
+
+#: ../src/im-chooser-simple.c:507
+#, c-format
+msgid "Stopping Input Method - %s"
+msgstr "Pysäytetään syöttömenetelmä - %s"
+
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except X applications and Qt applications</i></small>"
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except X applications and GTK+ applications</i></small>"
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except GTK+ applications and Qt applications</i></small>"
+#: ../src/im-chooser-simple.c:593 ../src/im-chooser-simple.c:596
+#: ../src/im-chooser-simple.c:599
+#, c-format
+msgid ", except %s and %s"
+msgstr ", paitsi %s ja %s"
+
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except X applications</i></small>"
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except GTK+ applications</i></small>"
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except Qt applications</i></small>"
+#: ../src/im-chooser-simple.c:602 ../src/im-chooser-simple.c:605
+#: ../src/im-chooser-simple.c:608
+#, c-format
+msgid ", except %s"
+msgstr ", paitsi %s"
+
+#. This will be displayed like "<small><i>Note: this change will not take effect until you next log in, except GTK+ applications</i></small>"
+#: ../src/im-chooser-simple.c:613
+#, c-format
+msgid ""
+"<small><i>Note: this change will not take effect until you next log in%s</"
+"i></small>"
+msgstr ""
+"<small><i>Huomaa: tämä muutos tulee voimaan vasta seuraavan kerran sisään "
+"kirjauduttaessa%s</i></small>"
+
+#: ../src/im-chooser-simple.c:672
+msgid "Parent Window"
+msgstr "Pääikkuna"
+
+#: ../src/im-chooser-simple.c:673
+msgid "GtkWindow that points to the parent window"
+msgstr "GtkWindow, joka osoittaa pääikkunaan"
+
+#: ../src/im-chooser-simple.c:678
+msgid "Note type"
+msgstr "Huomautuksien tyyppi"
+
+#: ../src/im-chooser-simple.c:679
+msgid "A enum value to determine which notes should be displayed"
+msgstr "Enum-arvo, jonka perusteella päätellään mitä huomautuksia näytetään"
+
+#. setup a progress window
+#: ../src/im-chooser-simple.c:722
+msgid "Work in progress..."
+msgstr "Edistyminen..."
+
+#: ../src/im-chooser-simple.c:772
+#, c-format
+msgid "Unable to communicate to IMSettings services"
+msgstr "IMSettings-palvelujen kanssa ei voida kommunikoida"
+
+#: ../src/im-chooser-simple.c:773
+msgid "Version mismatch"
+msgstr "Versioristiriita"
+
+#: ../src/im-chooser-simple.c:787
+msgid "Unable to gather current status"
+msgstr "Nykyistä tilaa ei voida hakea"
+
+#: ../src/im-chooser-simple.c:793
+msgid "Unable to get Input Method information"
+msgstr "Syöttömenetelmätietoja ei voida hakea"
+
+#: ../src/im-chooser-simple.c:840
+#, c-format
+msgid "Use %s"
+msgstr "Käytä %s"
+
+#: ../src/im-chooser-simple.c:843
+msgid " (legacy)"
+msgstr "(vanhentunut)"
+
+#: ../src/im-chooser-simple.c:845
+msgid " (recommended)"
+msgstr "(suositeltu)"
+
+#: ../src/im-chooser-simple.c:960
+msgid "_Enable input method feature"
+msgstr "Ota käyttöön syöttömenetelmä-ominaisuus"
+
+#: ../src/im-chooser-simple.c:968
+msgid "<b>Input Method</b>"
+msgstr "<b>Syöttömenetelmä</b>"
+
+#: ../src/im-chooser-simple.c:1001
+msgid "Input Method _Preferences..."
+msgstr "Syöttömenetelmien _asetukset..."
+
+#: ../src/im-chooser-simple.c:1028
+msgid "Show the status icon"
+msgstr "Näytä tilakuvake"
+
+#: ../src/main.c:53
+msgid ""
+"<span weight=\"bold\" size=\"larger\">No input method is available</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Mitään syöttömenetelmää ei ole "
+"käytettävissä</span>"
+
+#: ../src/main.c:56
+msgid "Please install any input methods before running if you like."
+msgstr "Asenna haluamasi syöttömenetelmät ennen ohjelman suorittamista."
+
+#: ../src/main.c:144
+msgid "IM Chooser - Input Method configuration tool"
+msgstr "Syöttötavan valintatyökalu"
+
+#: ../src/main.c:173
+msgid "Log Out"
+msgstr "Kirjaudu ulos"
+
+#: ../src/im-chooser.desktop.in.in.h:1 ../src/xfce4-im-chooser.desktop.in.h:1
+msgid ""
+"Choose the input method to be used or disable the input method usage on the "
+"desktop"
+msgstr ""
+"Valitse käytettävä syöttömenetelmä tai kytkemiseen syöttömenetelmien käyttö "
+"pois päältä työpöytäkäytössä."
+
+#: ../src/im-chooser.desktop.in.in.h:2 ../src/xfce4-im-chooser.desktop.in.h:2
+msgid "Input Method"
+msgstr "Syöttömenetelmä"
+
+#~ msgid "Replace the running settings daemon with new instance."
+#~ msgstr ""
+#~ "Korvaa suoritettavana oleva asetustaustaprosessi uudella instanssilla."
+
+#~ msgid "Unknown error in parsing the command lines."
+#~ msgstr "Tuntematon virhe komentorivejä jäsennettäessä."
+
+#~ msgid "Language"
+#~ msgstr "Kieli"
+
+#~ msgid "A language to pull the information in."
+#~ msgstr "Kieli jonka tiedot haetaan."
+
+#~ msgid "Filename"
+#~ msgstr "Tiedostonimi"
+
+#~ msgid "A filename referring to the IM information."
+#~ msgstr "Syöttömenetelmätietoihin viittaavan tiedoston nimi."
+
+#~ msgid "GTK+ immodule"
+#~ msgstr "GTK+-syöttömenetelmämoduuli"
+
+#~ msgid "A module name used for GTK+"
+#~ msgstr "GTK+:n käyttämän moduulin nimi."
+
+#~ msgid "Qt immodule"
+#~ msgstr "Qt-syöttömenetelmämoduuli"
+
+#~ msgid "A module name used for Qt"
+#~ msgstr "Qt:n käyttämän moduulin nimi"
+
+#~ msgid "XIM name"
+#~ msgstr "XIM-nimi"
+
+#~ msgid "XIM server name"
+#~ msgstr "XIM-palvelimen nimi"
+
+#~ msgid "Ignore flag"
+#~ msgstr "Ohituslippu"
+
+#~ msgid "XIM server program name"
+#~ msgstr "XIM-palvelinohjelman nimi"
+
+#~ msgid "XIM server program to be run"
+#~ msgstr "Suoritettavan XIM-palvelinohjelman nimi"
+
+#~ msgid "XIM server program's options"
+#~ msgstr "XIM-palvelinohjelman asetukset"
+
+#~ msgid "Command line options for XIM server program"
+#~ msgstr "XIM-palvelinohjelman komentorivivalitsimet"
+
+#, fuzzy
+#~ msgid "Preference program name"
+#~ msgstr "Aseta ohjelman nimi"
+
+#, fuzzy
+#~ msgid "Preference program to be run"
+#~ msgstr "Suoritettavan komennon kuvake."
+
+#, fuzzy
+#~ msgid "Preference program's options"
+#~ msgstr "Muuta ohjelman asetuksia"
+
+#, fuzzy
+#~ msgid "Auxiliary program name"
+#~ msgstr "Aseta ohjelman nimi"
+
+#, fuzzy
+#~ msgid "Auxiliary program to be run"
+#~ msgstr "Suoritettavan komennon kuvake."
+
+#, fuzzy
+#~ msgid "Auxiliary program's options"
+#~ msgstr "Muuta ohjelman asetuksia"
+
+#~ msgid "Short Description"
+#~ msgstr "Lyhyt kuvaus"
+
+#~ msgid "Long Description"
+#~ msgstr "Pitkä kuvaus"
+
+#~ msgid "System Default"
+#~ msgstr "Järjestelmän oletus"
+
+#~ msgid "Whether or not IM is a system default."
+#~ msgstr "Onko syöttömenetelmä järjestelmän oletus."
+
+#~ msgid "User Default"
+#~ msgstr "Käyttäjän oletus"
+
+#~ msgid "Whether or not IM is an user default."
+#~ msgstr "Onko syöttömenetelmä käyttäjän oletus."
+
+#~ msgid "XIM"
+#~ msgstr "XIM"
+
+#~ msgid "Whether or not IM is a XIM server."
+#~ msgstr "Onko syöttömenetelmä XIM-palvelin."
+
+#~ msgid "User Specific"
+#~ msgstr "Käyttäjäkohtainen"
+
+#~ msgid "xinputrc was modified by the user"
+#~ msgstr "Käyttäjä on muokannut tiedostoa xinputrc"
+
+#~ msgid "Invalid IM module type: %d"
+#~ msgstr "Virheellinen syöttömenetelmämoduulityyppi: %d"
+
+#~ msgid "IM module name"
+#~ msgstr "Syöttömenetelmämoduulin nimi"
+
+#~ msgid "Replace"
+#~ msgstr "Korvaa"
+
+#~ msgid "DBus connection"
+#~ msgstr "DBus-yhteys"
+
+#~ msgid "An object to be a DBus connection"
+#~ msgstr "Objekti, joka on DBus-yhteys"
+
+#~ msgid "DBus Interface"
+#~ msgstr "DBus-rajapinta"
+
+#~ msgid "Interface name to connect to DBus"
+#~ msgstr "Rajapinnan nimi DBusiin yhdistämiseksi"
+
+#~ msgid "Locale"
+#~ msgstr "Maa-asetusto"
+
+#~ msgid ""
+#~ "Failed to invoke a method `%s':\n"
+#~ "  %s"
+#~ msgstr ""
+#~ "Metodin ”%s” kutsuminen epäonnistui:\n"
+#~ "  %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Failed to invoke a method `%s' on %s:\n"
+#~ "  %s"
+#~ msgstr "Tiedoston \"%s\" oikeuksien asettaminen epäonnistui: %s"
+
+#~ msgid "Failed to remove a pidfile: %s"
+#~ msgstr "Pid-tiedoston poistaminen epäonnistui: %s"
+
+#~ msgid "Failed to open a pidfile: %s"
+#~ msgstr "Pid-tiedoston avaaminen epäonnistui: %s"
+
+#~ msgid "Couldn't determine the pid for %s process."
+#~ msgstr "Prosessin %s pidiä ei saatu selville."
+
+#~ msgid "Couldn't send a signal to the %s process successfully."
+#~ msgstr "Signaalia ei voitu lähettää prosessille %s."
+
+#~ msgid "Failed to get a place of home directory."
+#~ msgstr "Ei saatu selville kotihakemiston sijaintia."
+
+#~ msgid "Failed to revert the backup file: %s"
+#~ msgstr "Varmuuskopiotiedoston palautus epäonnistui %s"
+
+#~ msgid "Failed to create a backup file: %s"
+#~ msgstr "Varmuuskopiotiedostoa luominen epäonnistui: %s"
+
+#~ msgid "Failed to remove a .xinputrc file: %s"
+#~ msgstr ".xinputrc-tiedoston poisto epäonnistui: %s"
+
+#~ msgid "Failed to make a symlink: %s"
+#~ msgstr "Symbolisen linkin tekeminen epäonnistui: %s"
+
+#~ msgid "No such input method on your system: %s"
+#~ msgstr "Järjestelmässä ei ole syöttömenetelmää: %s"
+
+#~ msgid "X display name"
+#~ msgstr "X-näytön nimi"
+
+#~ msgid "X display name to use"
+#~ msgstr "Käytettävän X-näytön nimi"
+
+#~ msgid "X display to use"
+#~ msgstr "Käytettävä X-näyttö"
+
+#~ msgid "DISPLAY"
+#~ msgstr "NÄYTTÖ"
+
+#~ msgid "X screen to use"
+#~ msgstr "Käytettävä X-ruutu"
+
+#~ msgid "SCREEN"
+#~ msgstr "RUUTU"
+
+#~ msgid "Failed to open a X display."
+#~ msgstr "X-näytön avaaminen epäonnistui."
+
+#~ msgid "Reloading...\n"
+#~ msgstr "Ladataan uudelleen...\n"
+
+#~ msgid "Timed out to initialize %s services."
+#~ msgstr "Aikakatkaisu alustettaessa %s-palveluja."
+
+#~ msgid "No input methods available on your system."
+#~ msgstr "Järjestelmässä ei ole syöttömenetelmiä."
+
+#~ msgid "Force reloading the configuration, including restarting the process."
+#~ msgstr ""
+#~ "Pakota asetusten uudelleenlatus, käynnistetään myös prosessi uudelleen."
+
+#~ msgid "Force restarting the IM process regradless of any errors."
+#~ msgstr ""
+#~ "Pakota syöttömenetelmäprosessin käynnistäminen uudelleen virheistä "
+#~ "huolimatta."
+
+#~ msgid "Do not update .xinputrc."
+#~ msgstr "Älä päivitä tiedostoa .xinputrc."
+
+#~ msgid "Stopped %s\n"
+#~ msgstr "Pysäytettiin %s\n"
+
+#~ msgid "Failed to stop IM process `%s'\n"
+#~ msgstr "Syöttömenetelmäprosessin ”%s” pysäyttäminen epäonnistui\n"
+
+#~ msgid ""
+#~ "The appropriate configuration file wasn't found. maybe the installation "
+#~ "failed: %s"
+#~ msgstr "Sopivaa asetustiedostoa ei löytynyt. Ehkä asennus epäonnistui: %s"
+
+#~ msgid "No system default IM found at the pre-search phase. Adding..."
+#~ msgstr "Esihakuvaiheessa ei löytynyt oletussyöttömenetelmää. Lisätään..."
+
+#~ msgid "No user default IM found at the pre-search phase. Adding..."
+#~ msgstr ""
+#~ "Esihakuvaiheessa ei löytynyt käyttäjän oletussyöttömenetelmää. Lisätään..."
+
+#~ msgid "Failed to replace the running settings daemon."
+#~ msgstr "Suoritettavana olevan asetustaustaprosessin korvaus epäonnistui."
+
+#~ msgid "No valid IM installed"
+#~ msgstr "Sopivaa syöttömenetelmää ei ole asennettu"
+
+#~ msgid "_Use default Input Method for your language"
+#~ msgstr "_Käytä kielen oletussyöttömenetelmää"
+
+#~ msgid ""
+#~ "Your system chooses the appropriate Input Method for your language "
+#~ "automatically from among Input Methods installed on your system."
+#~ msgstr ""
+#~ "Järjestelmä valitsee sopivan syöttömenetelmän kielellesi automaattisesti "
+#~ "järjestelmään asennettujen syöttömenetelmien joukosta."
+
+#~ msgid "Choose _specific Input Method"
+#~ msgstr "Valitse tietty syöttömenetelmä"
+
+#~ msgid ""
+#~ "Use the specific Input Method that you prefer regardless what Input "
+#~ "Method the system recommends."
+#~ msgstr ""
+#~ "Käytä suosimaasi syöttömenetelmää huolimatta siitä, mitä menetelmää "
+#~ "järjestelmä suosittelee."
+
+#~ msgid ""
+#~ "Do not use Input Method no matter what language the desktop is running on."
+#~ msgstr ""
+#~ "Älä käytä syöttömenetelmää, huolimatta siitä mitä kieltä työpöytä käyttää."
+
+#~ msgid "Use legacy _Input Method"
+#~ msgstr "Käytä vanhentunutta _syöttömenetelmää"
+
+#~ msgid ""
+#~ "Use X Input Method anyway. In fact, which input method will be chosen for "
+#~ "the desktop session, depends on the desktop language."
+#~ msgstr ""
+#~ "Käytä X:n syöttömenetelmää joka tapauksessa. Työpöydän kielestä riippuu, "
+#~ "mikä syöttömenetelmä valitaan työpöytäistuntoon."
+
+#~ msgid "_Follow the system-wide configuration"
+#~ msgstr "_Seuraa järjestelmänlaajuisia asetuksia"
+
+#~ msgid ""
+#~ "Follow the system-wide input method configuration to determine which "
+#~ "input method should be used."
+#~ msgstr ""
+#~ "Seuraa järjestelmänlaajuisia syöttötapa-asetuksia ja valitse käytettävä "
+#~ "syöttötapa niiden perusteella."
