@@ -1,0 +1,276 @@
+1.6.3 -> 1.6.4
+=================
+* Contains man page into the archive
+
+1.6.2 -> 1.6.3
+=================
+* Translations updates.
+* Add man page
+* Fix crash issues
+
+1.6.1 -> 1.6.2
+=================
+* Translations updates.
+* Correct FSF address
+
+1.6.0 -> 1.6.1
+==================
+* Translations updates.
+
+1.5.2.2 -> 1.6.0
+===================
+* imsettings 1.3.0 support
+* Fix deprecated warnings in GTK+
+
+1.5.2.1 -> 1.5.2.2
+=====================
+* Translations updates.
+
+1.5.2 -> 1.5.2.1
+===================
+* Bug Fix:
+  * Fix distcheck errors.
+* Translations updates.
+
+1.5.1 -> 1.5.2
+=================
+* Bug Fix:
+  * rhbz#741497: Fix shutting down by pressing the logout button on KDE.
+
+1.5.0 -> 1.5.1
+=================
+* Translation updates.
+
+1.4.2 -> 1.5.0
+=================
+* Bug Fix:
+  * rhbz#703211: Fix a typo.
+* Enhancements:
+  * new UI
+  * new program integrated into xfce4-settings-manager.
+
+1.4.1 -> 1.4.2
+=================
+* Bug Fixes:
+  * Update libegg code to build against the latest GTK+.
+  * Update the category of .desktop for GNOME control center.
+  * ticket#5: Fix a typo
+
+* Translations updated:
+  * Bengali India
+  * Brazilian Portuguese
+  * Danish
+  * Flemish Dutch
+  * Italian
+  * German
+  * Gujarati
+  * Japanese
+  * Kannada
+  * Korean
+  * Malayalam
+  * Oriya
+  * Polish
+  * Punjabi
+  * Russian
+  * Simplified Chinese
+  * Spanish
+  * Tamil
+  * Traditional Chinese
+  * Turkish
+  * Ukrainian
+
+1.4.0 -> 1.4.1
+=================
+* Enhancement:
+  * IMSettings 1.0.0 support.
+* Translations updated:
+  * Bengali India
+  * Brazilian Portuguese
+  * Danish
+  * Flemish Dutch
+  * Gujarati
+  * Korean
+  * Low German
+  * Polish
+  * Traditional Chinese
+
+1.3.2 -> 1.4.0
+=================
+* Enhancement:
+  * rhbz#628420: move none state from checkbox to selector
+  * rhbz#607502: Window title
+  * GTK3 support
+  * GNOME3 support (ccpanel)
+  * Get rid of libgnomeui dependency
+* Translations updated:
+  * Brazilian Portuguese
+  * Dutch
+  * Norwegian Bokmål
+  * Polish
+  * Russian
+  * Turkish
+  * Ukrainian
+
+1.3.1 -> 1.3.2
+=================
+* Bug Fix:
+  * rhbz#607513: Border around input method list
+* Translations updated:
+  * Bulgarian
+  * Dutch
+  * German
+  * Persian
+
+1.3.0 -> 1.3.1
+=================
+* Bug Fix:
+  * rhbz#604482: Fallback to the themed icon.
+* Translations updated:
+  * Arabic
+  * Traditional Chinese
+
+1.2.7 -> 1.3.0
+=================
+* Enhancements:
+  * rhbz#528850: Stock icon support in the config file.
+  * New icons by Lapo Calamandrei and Jakub Steiner
+* Translations updated:
+  * Asturian
+  * Brazilian Portuguese
+  * English (United Kingdom)
+  * Geek
+  * German
+  * Hungarian
+  * Korean
+  * Polish
+  * Punjabi
+  * Russian
+  * Sinhala
+  * Spanish
+  * Ukrainian
+
+1.2.6 -> 1.2.7
+=================
+* Bug Fix:
+  * rhbz#487275: Fix a typo in the desktop file.
+
+* Translations updated:
+  * Danish
+  * Finnish
+  * Greek
+  * Icelandic
+  * Maithili
+  * Norwegian Bokmål
+  * Punjabi
+  * Simplified Chinese
+  * Spanish
+  * Thai
+
+1.2.5 -> 1.2.6
+=================
+* Support imsettings-0.106.0
+
+1.2.4 -> 1.2.5
+=================
+* Bug Fixes:
+  * Fix no translation displayed in some places.
+  * Show the log out button if something required.
+
+* Translations updated
+  * Hungarian
+  * Italian
+  * Japanese
+  * Malayalam
+  * Slovak
+
+1.2.3 -> 1.2.4
+=================
+* Improvement
+  * change the option order.
+* Translations updated
+  * Assamese
+  * Bengali India
+  * Brazilian Portuguese
+  * Catalan
+  * Czech
+  * Dutch
+  * French
+  * Gujarati
+  * Hindi
+  * Indonesian
+  * Japanese
+  * Kannada
+  * Korean
+  * Marathi
+  * Oriya
+  * Polish
+  * Portuguese
+  * Punjabi
+  * Russian
+  * Serbian
+  * Serbian Latin
+  * Spanish
+  * Swedish
+  * Tamil
+  * Telugu
+  * Traditional Chinese
+
+1.2.2 -> 1.2.3
+=================
+* Enhancement
+  * Add an option to show/hide the applet icon at the systray.
+* Translations updated
+  * Brazilian Portuguese
+  * Dutch
+  * Finnish
+  * French
+  * German
+  * Hungarian
+  * Italian
+  * Japanese
+  * Korean
+  * Norwegian Bokmål
+  * Russian
+  * Serbian
+  * Serbian Latin
+  * Simplified Chinese
+  * Spanish
+  * Traditional Chinese
+
+1.2.1 -> 1.2.2
+=================
+* Bug Fixes
+  * Unable to close the error dialog
+  * Display the progress dialog unexpectedly when the error dialog is bringing up.
+* Improvements
+  * Display the proper notice against current status.
+* Translations updated
+  * Brazilian
+  * Dutch
+  * German
+  * Japanese
+  * Norwegian Bokmål
+  * Polish
+
+1.2.0 -> 1.2.1
+=================
+* Feature
+  * Display an Input Method icon from imsettings.
+* Translations updated
+  * Polish
+  * Italian
+
+1.1.1 -> 1.2.0
+=================
+* Features
+  * GNOME support again.
+  * Show up the log out button as needed.
+
+1.1.0 -> 1.1.1
+=================
+* Bug Fix
+  * Fix a segfault issue when no Input Method installed.
+* Translations updated
+  * Dutch
+  * Oriya
+  * Polish
