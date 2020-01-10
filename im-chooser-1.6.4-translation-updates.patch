@@ -1,0 +1,3234 @@
+diff -urN a/im-chooser-1.6.4/po/as.po b/im-chooser-1.6.4/po/as.po
+--- a/im-chooser-1.6.4/po/as.po	2013-11-28 16:57:26.872046130 +0530
++++ b/im-chooser-1.6.4/po/as.po	2013-11-28 16:58:35.105665133 +0530
+@@ -1,25 +1,25 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Amitakhya Phukan <aphukan@redhat.com>, 2008.
+ # Amitakhya Phukan <aphukan@fedoraproject.org>, 2008.
+ # Nilamdyuti Goswami <ngoswami@redhat.com>, 2012.
+-# ngoswami <ngoswami@fedoraproject.org>, 2012. #zanata
++# ngoswami <ngoswami@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-08-28 11:58-0400\n"
+-"Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
++"PO-Revision-Date: 2013-09-25 06:00-0400\n"
++"Last-Translator: ngoswami <ngoswami@redhat.com>\n"
+ "Language-Team: as_IN <kde-i18n-doc@kde.org>\n"
+-"Language: as\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: as\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -189,7 +189,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -204,7 +205,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -232,24 +234,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ট্ৰিৰ বাবে অবজেক্ট লবলে অক্ষম"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "উইজেট"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "কোষত অন্তৰ্ভুক্ত কৰিবলে উইজেট"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "স্পেইচিং"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "লেবেলৰ মাজৰ স্থান"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "ইনপুট পদ্ধতি নিৰ্বাচক"
+ 
+@@ -259,36 +263,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"ব্যৱহাৰ কৰিব লগিয়া ইনপুট পদ্ধতি বাছক অথবা ডেস্কটপত ইনপুট পদ্ধতিৰ ব্যৱহাৰ অসামৰ্থবান "
+-"কৰক"
++"ব্যৱহাৰ কৰিব লগিয়া ইনপুট পদ্ধতি বাছক অথবা ডেস্কটপত ইনপুট পদ্ধতিৰ ব্যৱহাৰ "
++"অসামৰ্থবান কৰক"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "অধিক বিৱৰণৰ বাবে অনুগ্ৰহ কৰি <a href=\"file://%s\">%s</a> নিৰীক্ষণ কৰক"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "অধিবেশন ব্যৱস্থাপকলে সংযোগ কৰিব নোৱাৰি"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[বিকল্পসমূহ...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "তৰ্কসমূহ বিশ্লেষণ কৰিব নোৱাৰি: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "কোনো ইনপুট পদ্ধতি উপলব্ধ নাই"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "উদ্ধাৰ কৰিব নোৱাৰা ত্ৰুটি"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "প্ৰস্থান কৰক"
+ 
+diff -urN a/im-chooser-1.6.4/po/bn_IN.po b/im-chooser-1.6.4/po/bn_IN.po
+--- a/im-chooser-1.6.4/po/bn_IN.po	2013-11-28 16:57:26.869046103 +0530
++++ b/im-chooser-1.6.4/po/bn_IN.po	2013-11-28 16:58:35.105665133 +0530
+@@ -1,28 +1,27 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+ # Runa Bhattacharjee <runabh@gmail.com>, 2007.
+ # Runa Bhattacharjee <runab@redhat.com>, 2006, 2008.
+-# sankarshan <sankarshan.mukhopadhyay@gmail.com>, 2011. #zanata
+-# Runa Bhattacharjee <runab@redhat.com>, 2012. #zanata
++# sray <sray@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-11-19 09:28-0500\n"
+-"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
++"PO-Revision-Date: 2013-10-03 02:17-0400\n"
++"Last-Translator: sray <sray@redhat.com>\n"
+ "Language-Team: Bengali (India) (http://www.transifex.net/projects/p/im-"
+ "chooser/team/bn_IN/)\n"
+-"Language: bn-IN\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: bn-IN\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -57,7 +56,8 @@
+ #: ../libimchooseui/eggdesktopfile.c:1391
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+-msgstr "'Type=Link' ডেস্কটপ এনট্রির ক্ষেত্রে নথিপত্রের URI উল্লেখ করা সম্ভব নয়"
++msgstr ""
++"'Type=Link' ডেস্কটপ এনট্রির ক্ষেত্রে নথিপত্রের URI উল্লেখ করা সম্ভব নয়"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:1412
+ #, c-format
+@@ -192,7 +192,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -207,7 +208,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -222,8 +224,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>উল্লেখ্য: পরবর্তীবার লগ-ইন না করা অব্দি এই পরিবর্তনগুলি প্রয়োত করা হবে না"
+-"%s</i></small>"
++"<small><i>উল্লেখ্য: পরবর্তীবার লগ-ইন না করা অব্দি এই পরিবর্তনগুলি প্রয়োত করা "
++"হবে না%s</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -235,24 +237,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ট্রির জন্য অবজেক্ট প্রাপ্ত করতে ব্যর্থ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "উইজেট"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "সেলের মধ্যে অন্তর্ভুক্ত করার জন্য চিহ্নিত উইজেট"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "শূন্যস্থান"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "লেবেলের মধ্যে শূণ্যস্থানের পরিমান"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "ইনপুট পদ্ধতি নির্বাচন ব্যবস্থা"
+ 
+@@ -262,35 +266,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"ব্যবহারযোগ্য ইনপুট পদ্ধতি নির্ধারণ করুন অথবা ডেস্কটপের মধ্যে ইনপুট পদ্ধতি নিষ্ক্রিয় করুন"
++"ব্যবহারযোগ্য ইনপুট পদ্ধতি নির্ধারণ করুন অথবা ডেস্কটপের মধ্যে ইনপুট পদ্ধতি "
++"নিষ্ক্রিয় করুন"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "বিস্তারিত জানতে অনুগ্রহ করে <a href=\"file://%s\">%s</a> দেখুন"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "সেশান পরিচালনব্যবস্থার সাথে সংযোগ স্থাপন করতে ব্যর্থ"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[options...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "আর্গুমেন্ট পার্স করতে ব্যর্থ: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "কোন ইনপুট পদ্ধতি পাওয়া যায়নি"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "অসংশোধনযোগ্য ত্রুটি"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "লগ আউট করুন"
+ 
+diff -urN a/im-chooser-1.6.4/po/de.po b/im-chooser-1.6.4/po/de.po
+--- a/im-chooser-1.6.4/po/de.po	2013-11-28 16:57:26.867046084 +0530
++++ b/im-chooser-1.6.4/po/de.po	2013-11-28 16:58:35.105665133 +0530
+@@ -1,29 +1,29 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Translators:
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+ # Dominik Sandjaja <dominiksandjaja@fedoraproject.org>, 2008.
+ # Fabian Affolter <fab@fedoraproject.org>, 2007, 2008.
+ # Roman Spirgi <rspirgi@gmail.com>, 2011.
+ # Timo Trinks <ttrinks@redhat.com>, 2006.
+-# hedda <hedda@fedoraproject.org>, 2012. #zanata
++# rgromans <rgromans@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-09-02 11:49-0400\n"
+-"Last-Translator: hedda <hedda@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-09-23 08:33-0400\n"
++"Last-Translator: rgromans <rgromans@redhat.com>\n"
+ "Language-Team: German (http://www.transifex.net/projects/p/im-chooser/team/"
+ "de/)\n"
+-"Language: de-DE\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: de\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -197,7 +197,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -212,7 +213,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -227,8 +229,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>Hinweis: Diese Änderung wird erst bei Ihrem nächsten Login wirksam"
+-"%s</i></small>"
++"<small><i>Hinweis: Diese Änderung wird erst bei Ihrem nächsten Login "
++"wirksam%s</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -240,24 +242,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "Objekt für 'tree' kann nicht bezogen werden"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "Widget"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "Widget in der Zelle enthalten"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "Abstand"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "Der Abstand zwischen den Kennzeichen"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "Wahl der Eingabemethode"
+ 
+@@ -273,30 +277,38 @@
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "Siehe <a href=\"file://%s\">%s</a> für weitere Details"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "Keine Verbindung zur Sitzungsverwaltung"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[Optionen...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "Konnte diese Argumente nicht parsen: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "Keine Eingabemethode verfügbar"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "nicht behebbarer Fehler"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "Abmelden"
+ 
+diff -urN a/im-chooser-1.6.4/po/es.po b/im-chooser-1.6.4/po/es.po
+--- a/im-chooser-1.6.4/po/es.po	2013-11-28 16:57:26.874046148 +0530
++++ b/im-chooser-1.6.4/po/es.po	2013-11-28 16:58:35.105665133 +0530
+@@ -1,28 +1,28 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Translators:
+ # Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2011.
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+ # Domingo Becker <domingobecker@gmail.com>, 2008.
+ # Héctor Daniel Cabrera <logan@fedoraproject.org>, 2011.
+ # Manuel Ospina <mospina@redhat.com>, 2006, 2007.
+-# gguerrer <gguerrer@fedoraproject.org>, 2012. #zanata
++# gguerrer <gguerrer@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-09-28 01:02-0400\n"
+-"Last-Translator: gguerrer <gguerrer@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-10-02 01:57-0400\n"
++"Last-Translator: gguerrer <gguerrer@redhat.com>\n"
+ "Language-Team: Spanish (Castilian) <trans-es@lists.fedoraproject.org>\n"
+-"Language: es-ES\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: es\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -58,8 +58,8 @@
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+ msgstr ""
+-"No es posible pasar las URI del documento a una entrada de escritorio "
+-"«Type=Link»"
++"No es posible pasar las URI del documento a una entrada de escritorio «Type="
++"Link»"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:1412
+ #, c-format
+@@ -194,7 +194,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -209,7 +210,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -237,24 +239,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "No se puede obtener el objeto para el árbol"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "Asistente"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "Asistente para contener en la celda"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "Espaciado"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "La cantidad de espacio entre etiquetas"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "Selector del método de entrada"
+ 
+@@ -271,29 +275,38 @@
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+ msgstr ""
++"Por favor revise <a href=\"file://%s\">%s</a> para obtener mayor información"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "No se pudo conectar con el administrador de sesión"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[opciones...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "No se pueden analizar argumentos: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "No hay un método de entrada disponible"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "Error irrecuperable"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "Cerrar sesión"
+ 
+diff -urN a/im-chooser-1.6.4/po/fr.po b/im-chooser-1.6.4/po/fr.po
+--- a/im-chooser-1.6.4/po/fr.po	2013-11-28 16:57:26.872046130 +0530
++++ b/im-chooser-1.6.4/po/fr.po	2013-11-28 16:58:35.105665133 +0530
+@@ -1,7 +1,7 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Decroux Fabien <fdecroux@redhat.com>, 2006.
+ # Gauthier Ancelin <gauthier.ancelin@laposte.net>, 2008.
+ # JAILLET Patrick <ap3demak@gmail.com>, 2006.
+@@ -9,23 +9,22 @@
+ # dominique bribanick <chepioq@gmail.com>, 2011.
+ # Thomas Canniot <mrtom@fedoraproject.org>, 2006, 2007, 2008.
+ # Translators:
+-# samfreemanz <sfriedma@redhat.com>, 2012. #zanata
+-# samfreemanz <sfriedma@redhat.com>, 2013. #zanata
++# Sam Friedmann <sfriedma@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2013-04-09 02:33-0400\n"
+-"Last-Translator: samfreemanz <sfriedma@redhat.com>\n"
++"PO-Revision-Date: 2013-10-04 01:17-0400\n"
++"Last-Translator: Sam Friedmann <sfriedma@redhat.com>\n"
+ "Language-Team: French (http://www.transifex.net/projects/p/im-chooser/team/"
+ "fr/)\n"
+-"Language: fr\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: fr\n"
+ "Plural-Forms: nplurals=2; plural=(n > 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -197,7 +196,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -212,7 +212,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -240,24 +241,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "Impossible d'accéder à l'objet de type « tree »"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "Widget"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "Widget à intégrer dans la cellule"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "Espacement"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "Espace entre les étiquettes"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "Sélecteur de méthode de saisie"
+ 
+@@ -274,29 +277,39 @@
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+ msgstr ""
++"Veuillez consulter <a href=\"file://%s\">%s</a> pour obtenir davantage de "
++"détails"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "Impossible de se connecter au gestionnaire de session"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[options...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "Impossible d'analyser les arguments : %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "Aucune méthode d'entrée n'est disponible"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "Erreur irrécupérable"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "Se déconnecter"
+ 
+diff -urN a/im-chooser-1.6.4/po/gu.po b/im-chooser-1.6.4/po/gu.po
+--- a/im-chooser-1.6.4/po/gu.po	2013-11-28 16:57:26.868046093 +0530
++++ b/im-chooser-1.6.4/po/gu.po	2013-11-28 16:58:35.106665142 +0530
+@@ -1,26 +1,26 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Ankit Patel <ankit@redhat.com>, 2006, 2007, 2008.
+ # Sweta Kothari <swkothar@redhat.com>, 2008.
+ # sweta <swkothar@redhat.com>, 2011.
+-# swkothar <swkothar@redhat.com>, 2012. #zanata
++# swkothar <swkothar@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-09-26 02:21-0400\n"
++"PO-Revision-Date: 2013-09-24 05:23-0400\n"
+ "Last-Translator: swkothar <swkothar@redhat.com>\n"
+ "Language-Team: Gujarati (http://www.transifex.net/projects/p/im-chooser/team/"
+ "gu/)\n"
+-"Language: gu\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: gu\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -142,7 +142,8 @@
+ #: ../libimchooseui/imchooseui.c:331
+ #, c-format
+ msgid "Please install any input methods before running if you like."
+-msgstr "મહેરબાની કરીને ચલાવવા પહેલાં કોઈપણ ઈનપુટ પદ્ધતિઓ પસંદ કરો કે જે તમને ગમે."
++msgstr ""
++"મહેરબાની કરીને ચલાવવા પહેલાં કોઈપણ ઈનપુટ પદ્ધતિઓ પસંદ કરો કે જે તમને ગમે."
+ 
+ #: ../libimchooseui/imchooseui.c:404
+ msgid "Unable to get the information"
+@@ -190,7 +191,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -205,7 +207,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -220,7 +223,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>નોંધ: આ ફેરફાર અસર કરશે નહિં જ્યાં સુધી તમે આગળ %s માં પ્રવેશો</i></small>"
++"<small><i>નોંધ: આ ફેરફાર અસર કરશે નહિં જ્યાં સુધી તમે આગળ %s માં પ્રવેશો</"
++"i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -232,24 +236,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ટ્રી માટે ઑબ્જેક્ટ પ્રાપ્ત કરવામાં અસમર્થ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "વિજેટ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "સેલમાં સમાવવા માટે વિજેટ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "અંતર"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "લેબલ વચ્ચે ઘણી બધી જગ્યા"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "ઇનપુટ પદ્દતિ પસંદકર્તા"
+ 
+@@ -259,35 +265,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"વાપરવા માટેની ઈનપુટ પદ્ધતિ પસંદ કરો અથવા ડેસ્કટોપ પર ઈનપુટ પદ્ધતિનો વપરાશ નિષ્ક્રિય કરો"
++"વાપરવા માટેની ઈનપુટ પદ્ધતિ પસંદ કરો અથવા ડેસ્કટોપ પર ઈનપુટ પદ્ધતિનો વપરાશ "
++"નિષ્ક્રિય કરો"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "મહેરબાની કરીને વધારે વિગતો માટે <a href=\"file://%s\">%s</a> ચકાસો"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "સત્ર સંચાલક સાથે જોડાઇ શક્યા નહિં"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[વિકલ્પો...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "દલીલોનું પદચ્છેદન કરી શક્યા નહિં: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "ઇનપુટ પદ્દતિ ઉપલબ્ધ નથી"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "સુધારી ન શકાય તેવી ભૂલ"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "બહાર નીકળો"
+ 
+diff -urN a/im-chooser-1.6.4/po/hi.po b/im-chooser-1.6.4/po/hi.po
+--- a/im-chooser-1.6.4/po/hi.po	2013-11-28 16:57:26.875046157 +0530
++++ b/im-chooser-1.6.4/po/hi.po	2013-11-28 16:58:35.106665142 +0530
+@@ -1,24 +1,24 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Rajesh Ranjan <rranjan@redhat.com>, 2006, 2008, 2011.
+-# rajesh <rajesh@fedoraproject.org>, 2012. #zanata
++# rranjan <rranjan@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-09-27 02:29-0400\n"
+-"Last-Translator: rajesh <rajesh@fedoraproject.org>\n"
+-"Language-Team: Hindi (http://www.transifex.net/projects/p/im-chooser/team/"
+-"hi/)\n"
+-"Language: hi\n"
++"PO-Revision-Date: 2013-09-26 05:15-0400\n"
++"Last-Translator: rranjan <rranjan@redhat.com>\n"
++"Language-Team: Hindi (http://www.transifex.net/projects/p/im-chooser/team/hi/"
++")\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: hi\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -53,7 +53,8 @@
+ #: ../libimchooseui/eggdesktopfile.c:1391
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+-msgstr "दस्तावेज URI को एक 'Type=Link' डेस्कटॉप प्रविष्टि मनें भेज नहीं सकता है"
++msgstr ""
++"दस्तावेज URI को एक 'Type=Link' डेस्कटॉप प्रविष्टि मनें भेज नहीं सकता है"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:1412
+ #, c-format
+@@ -188,7 +189,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -203,7 +205,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -218,7 +221,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>नोट: यह परिवर्तन आपके अगले लॉग in%s के पहले प्रभावी नहीं होगा</i></small>"
++"<small><i>नोट: यह परिवर्तन आपके अगले लॉग in%s के पहले प्रभावी नहीं होगा</i></"
++"small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -230,24 +234,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "तरू के लिए वस्तु पाने में असमर्थ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "विजेट"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "कोष्ठ में समाहित करने के लिए विजेट"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "अंतरण"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "लेबल के बीच में स्थान की मात्रा"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "इनपुट विधि चयनक"
+ 
+@@ -257,36 +263,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"इनपुट विधि को प्रयोग किये जाने के लिये चुनें या डेस्कटॉप पर इनपुट विधि प्रयोग को निष्क्रिय "
+-"करें"
++"इनपुट विधि को प्रयोग किये जाने के लिये चुनें या डेस्कटॉप पर इनपुट विधि "
++"प्रयोग को निष्क्रिय करें"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "अधिक विवरण के लिए <a href=\"file://%s\">%s</a> जाँचें."
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "किसी सत्र प्रबंधक में कनेक्ट नहीं कर सका"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[विकल्प...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "तर्क विश्लेषित नहीं कर सका: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "कोई इनपुट विधि उपलब्ध नहीं है"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "न रिकवरी योग्य त्रुटि"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "लॉग आउट"
+ 
+diff -urN a/im-chooser-1.6.4/po/it.po b/im-chooser-1.6.4/po/it.po
+--- a/im-chooser-1.6.4/po/it.po	2013-11-28 16:57:26.868046093 +0530
++++ b/im-chooser-1.6.4/po/it.po	2013-11-28 16:58:35.106665142 +0530
+@@ -1,25 +1,25 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Francesco Tombolini <tombo@adamantio.net>, 2007, 2008.
+ # Silvio Pierro <perplesso82@gmail.com>, 2008, 2011.
+-# fvalen <fvalen@fedoraproject.org>, 2012. #zanata
++# fvalen <fvalen@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-09-03 07:56-0400\n"
+-"Last-Translator: fvalen <fvalen@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-09-26 09:42-0400\n"
++"Last-Translator: fvalen <fvalen@redhat.com>\n"
+ "Language-Team: Italian (http://www.transifex.net/projects/p/im-chooser/team/"
+ "it/)\n"
+-"Language: it\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: it\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -192,7 +192,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -207,7 +208,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -235,24 +237,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "Impossibile ottenere l'oggetto per l'albero"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "Widget"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "Widget da contenere nella cella"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "Spaziatura"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "La quantità di spazio tra le etichette"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "Selettore di Input Method"
+ 
+@@ -268,30 +272,38 @@
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "Per maggiori informazioni consultare <a href=\"file://%s\">%s</a>"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "Impossibile connettersi al gestore di sessione"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr " [opzioni...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "Impossibile analizzare gli argomenti: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "Nessun input method è disponibile"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "Errore irreversibile"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "Log Out"
+ 
+diff -urN a/im-chooser-1.6.4/po/ja.po b/im-chooser-1.6.4/po/ja.po
+--- a/im-chooser-1.6.4/po/ja.po	2013-11-28 16:57:26.875046157 +0530
++++ b/im-chooser-1.6.4/po/ja.po	2013-11-28 16:58:35.106665142 +0530
+@@ -1,7 +1,7 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Akira TAGOH <tagoh@redhat.com>, 2006, 2007, 2008.
+ # Makoto Mizukami <mmk9060@aol.com>, 2008.
+ # Noriko Mizumoto <noriko@redhat.com>, 2007, 2008, 2009.
+@@ -9,23 +9,22 @@
+ # Kiyoto Hashida <khashida@redhat.com>, 2008.
+ # Kiyoto James Hashida <khashida@redhat.com>, 2006.
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+-# khasida <khasida@fedoraproject.org>, 2012. #zanata
+-# noriko <noriko@fedoraproject.org>, 2012. #zanata
++# noriko <noriko@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-09-06 11:44-0400\n"
+-"Last-Translator: khasida <khasida@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-10-11 02:40-0400\n"
++"Last-Translator: noriko <noriko@redhat.com>\n"
+ "Language-Team: Japanese (http://www.transifex.net/projects/p/im-chooser/team/"
+ "ja/)\n"
+-"Language: ja\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: ja\n"
+ "Plural-Forms: nplurals=1; plural=0\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -48,8 +47,7 @@
+ #: ../libimchooseui/eggdesktopfile.c:1116
+ #, c-format
+ msgid "Application does not accept documents on command line"
+-msgstr ""
+-"アプリケーションはコマンドラインでドキュメントを指定することができません。"
++msgstr "アプリケーションはコマンドラインでドキュメントを指定することができません。"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:1184
+ #, c-format
+@@ -61,9 +59,7 @@
+ #: ../libimchooseui/eggdesktopfile.c:1391
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+-msgstr ""
+-"デスクトップエントリーの \"Type=Link\" にドキュメントの URI をパスできませ"
+-"ん。"
++msgstr "デスクトップエントリーの \"Type=Link\" にドキュメントの URI をパスできません。"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:1412
+ #, c-format
+@@ -198,7 +194,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -213,7 +210,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -227,8 +225,7 @@
+ msgid ""
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+-msgstr ""
+-"<small><i>注記: %sこの変更は次回ログインするまで反映されません</i></small>"
++msgstr "<small><i>注記: %sこの変更は次回ログインするまで反映されません</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -240,24 +237,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ツリーオブジェクトを取得できません"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "ウィジェット"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "セルに含まれるウィジェット"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "間隔"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "ラベル間のスペースの数"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "入力メソッドのセレクター"
+ 
+@@ -266,37 +265,43 @@
+ msgid ""
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+-msgstr ""
+-"デスクトップで使用する入力メソッドを選択したり、もしくは入力メソッドの使用を"
+-"無効化します。"
++msgstr "デスクトップで使用する入力メソッドを選択したり、もしくは入力メソッドの使用を無効化します。"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "詳細については <a href=\"file://%s\">%s</a> をご覧ください"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "セッションマネージャへ接続できません。"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[オプション...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "引数を解析できません。: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "利用可能な入力メソッドがありません"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "回復できないエラー"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "ログアウト"
+ 
+diff -urN a/im-chooser-1.6.4/po/kn.po b/im-chooser-1.6.4/po/kn.po
+--- a/im-chooser-1.6.4/po/kn.po	2013-11-28 16:57:26.869046103 +0530
++++ b/im-chooser-1.6.4/po/kn.po	2013-11-28 16:58:35.106665142 +0530
+@@ -1,25 +1,25 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Shankar Prasad <svenkate@redhat.com>, 2008.
+ # shankar Prasad <svenkate@redhat.com>, 2006.
+ # shankar prasad <svenkate@redhat.com>, 2006.
+-# shanky <shanky@fedoraproject.org>, 2012. #zanata
++# Shankar <svenkate@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-09-25 03:04-0400\n"
+-"Last-Translator: shanky <shanky@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-10-22 08:42-0400\n"
++"Last-Translator: Shankar <svenkate@redhat.com>\n"
+ "Language-Team: LANGUAGE <LL@li.org>\n"
+-"Language: kn\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: kn\n"
+ "Plural-Forms: nplurals=1; plural=0\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -54,7 +54,8 @@
+ #: ../libimchooseui/eggdesktopfile.c:1391
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+-msgstr "ದಸ್ತಾವೇಜು URIಗಳನ್ನು ಒಂದು 'Type=Link' ಗಣಕತೆರೆ ನಮೂದಿಗೆ ರವಾನಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
++msgstr ""
++"ದಸ್ತಾವೇಜು URIಗಳನ್ನು ಒಂದು 'Type=Link' ಗಣಕತೆರೆ ನಮೂದಿಗೆ ರವಾನಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:1412
+ #, c-format
+@@ -189,7 +190,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -204,7 +206,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -219,8 +222,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>ಸೂಚನೆ: ನೀವು ಮುಂದಿನ ಬಾರಿಗೆ ಪ್ರವೇಶಿಸುವವರೆಗೆ ಈ ಬದಲಾವಣೆಗಳು ಕಾರ್ಯರೂಪಕ್ಕೆ "
+-"ಬರುವುದಿಲ್ಲ %s</i></small>"
++"<small><i>ಸೂಚನೆ: ನೀವು ಮುಂದಿನ ಬಾರಿಗೆ ಪ್ರವೇಶಿಸುವವರೆಗೆ ಈ ಬದಲಾವಣೆಗಳು "
++"ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರುವುದಿಲ್ಲ %s</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -232,24 +235,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ವೃಕ್ಷಕ್ಕಾಗಿ ವಸ್ತುವನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "ವಿಡ್ಗೆಟ್"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "ಕೋಶದಲ್ಲಿ ಇರಬೇಕಿರುವ ವಿಡ್ಗೆಟ್"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "ಅಂತರ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "ಲೇಬಲ್‌ಗಳ ನಡುವಿನ ಅಂತರದ ಪ್ರಮಾಣ"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "ಇನ್‌ಪುಟ್ ವಿಧಾನ ಆಯ್ಕೆಗಾರ"
+ 
+@@ -259,36 +264,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"ಗಣಕ ಪರದೆಯ ಬಳಕೆಗೆ, ಆದಾನಕ್ರಮವನ್ನು ಉಪಯೋಗಿಸಬೇಕೆ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸ ಬೇಕೆ ಎಂಬುದನ್ನು "
+-"ಆಯ್ಕೆಮಾಡಿ"
++"ಗಣಕ ಪರದೆಯ ಬಳಕೆಗೆ, ಆದಾನಕ್ರಮವನ್ನು ಉಪಯೋಗಿಸಬೇಕೆ ಅಥವಾ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸ ಬೇಕೆ "
++"ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ <a href=\"file://%s\">%s</a> ಅನ್ನು ನೋಡಿ"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "ಅಧಿವೇಶನ ವ್ಯವಸ್ಥಾಪಕದೊಂದಿಗೆ ಸಂಪರ್ಕಹೊಂದಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[ಆಯ್ಕೆಗಳು...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "ಆರ್ಗ್ಯುಮೆಂಟ್‌ಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "ಯಾವುದೆ ಇನ್‌ಪುಟ್ ವಿಧಾನವು ಲಭ್ಯವಿಲ್ಲ"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "ಸರಿಪಡಿಸಲಾಗದೆ ಇರುವ ದೋಷ"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "ಹೊರಗೆ ನಡೆ"
+ 
+diff -urN a/im-chooser-1.6.4/po/ko.po b/im-chooser-1.6.4/po/ko.po
+--- a/im-chooser-1.6.4/po/ko.po	2013-11-28 16:57:26.875046157 +0530
++++ b/im-chooser-1.6.4/po/ko.po	2013-11-28 16:58:35.106665142 +0530
+@@ -1,25 +1,25 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+ # Hyunsok Oh <hoh@redhat.com>, 2010.
+ # Eunju Kim <eukim@redhat.com>, 2006, 2007, 2008.
+-# eukim <eukim@fedoraproject.org>, 2012. #zanata
++# eukim <eukim@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-08-15 07:52-0400\n"
+-"Last-Translator: eukim <eukim@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-09-26 08:33-0400\n"
++"Last-Translator: eukim <eukim@redhat.com>\n"
+ "Language-Team: LANGUAGE <LL@li.org>\n"
+-"Language: ko\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: ko\n"
+ "Plural-Forms: nplurals=1; plural=0\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -189,7 +189,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -204,7 +205,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -218,9 +220,7 @@
+ msgid ""
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+-msgstr ""
+-"<small><i>알림: 이러한 변경 사항은 %s로의 다음 로그인  까지 반영되지 않습니다"
+-"</i></small>"
++msgstr "<small><i>알림: 이러한 변경 사항은 %s로의 다음 로그인  까지 반영되지 않습니다</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -232,24 +232,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "트리의 개체를 가져올 수 없음 "
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "위젯"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "셀에 포함시킬 위젯 "
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "간격 "
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "레이블 사이의 간격 수 "
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "입력 방식"
+ 
+@@ -263,30 +265,38 @@
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "보다 자세한 내용은 <a href=\"file://%s\">%s</a>에서 참조하십시오"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "세션 관리자로 연결할 수 없음 "
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[옵션...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "인수를 해석할 수 없음: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "사용 가능한 입력 방식이 없음 "
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "복수할 수 없는 오류 "
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "로그 아웃 "
+ 
+diff -urN a/im-chooser-1.6.4/po/ml.po b/im-chooser-1.6.4/po/ml.po
+--- a/im-chooser-1.6.4/po/ml.po	2013-11-28 16:57:26.872046130 +0530
++++ b/im-chooser-1.6.4/po/ml.po	2013-11-28 16:58:35.106665142 +0530
+@@ -1,23 +1,23 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Ani Peter <apeter@redhat.com>, 2006.
+-# anipeter <anipeter@fedoraproject.org>, 2012. #zanata
++# apeter <apeter@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-09-25 01:14-0400\n"
+-"Last-Translator: anipeter <anipeter@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-10-28 08:06-0400\n"
++"Last-Translator: apeter <apeter@redhat.com>\n"
+ "Language-Team: LANGUAGE <LL@li.org>\n"
+-"Language: ml\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: ml\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -52,7 +52,9 @@
+ #: ../libimchooseui/eggdesktopfile.c:1391
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+-msgstr "ഒരു 'Type=Link' ഡസ്ക്ടോപ്പ് എന്‍ട്രിയിലേക്കു് രേഖയ്ക്കുള്ള യുആര്‍ഐകള്‍ നല്‍കുവാന്‍ സാധ്യമല്ല"
++msgstr ""
++"ഒരു 'Type=Link' ഡസ്ക്ടോപ്പ് എന്‍ട്രിയിലേക്കു് രേഖയ്ക്കുള്ള യുആര്‍ഐകള്‍ "
++"നല്‍കുവാന്‍ സാധ്യമല്ല"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:1412
+ #, c-format
+@@ -140,7 +142,8 @@
+ #, c-format
+ msgid "Please install any input methods before running if you like."
+ msgstr ""
+-"നിങ്ങള്‍ക്ക് ആവശ്യമെങ്കില്‍, പ്രവര്‍ത്തനത്തിന് മുമ്പ് ഏതെങ്കിലും ഇന്‍പുട്ട് രീതി ദയവായി ഇന്‍സ്റ്റോള്‍ ചെയ്യുക."
++"നിങ്ങള്‍ക്ക് ആവശ്യമെങ്കില്‍, പ്രവര്‍ത്തനത്തിന് മുമ്പ് ഏതെങ്കിലും ഇന്‍പുട്ട് "
++"രീതി ദയവായി ഇന്‍സ്റ്റോള്‍ ചെയ്യുക."
+ 
+ #: ../libimchooseui/imchooseui.c:404
+ msgid "Unable to get the information"
+@@ -188,7 +191,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -203,7 +207,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -218,8 +223,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>കുറിപ്പു്: അടുത്ത തവണ നിങ്ങള്‍ %s-ല്‍ പ്രവേശിയ്ക്കുന്നതു് വരെ ഈ മാറ്റം ലഭ്യമാകുന്നതല്ല</"
+-"i></small>"
++"<small><i>കുറിപ്പു്: അടുത്ത തവണ നിങ്ങള്‍ %s-ല്‍ പ്രവേശിയ്ക്കുന്നതു് വരെ ഈ "
++"മാറ്റം ലഭ്യമാകുന്നതല്ല</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -231,24 +236,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ട്രീയ്ക്കുള്ള വസ്തു ലഭ്യമാക്കുവാന്‍ സാധ്യമല്ല"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "വിഡ്ജറ്റ്"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "സെല്ലില്‍ അടങ്ങുന്ന വിഡ്ജറ്റ്"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "സ്പെയിസിങ്"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "ലേബലിനിടയിലുള്ള സ്ഥലം"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "ഇന്‍പുട്ട് രീതി തെരഞ്ഞെടുക്കുന്നതിനുള്ള പ്രയോഗം"
+ 
+@@ -258,35 +265,45 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"ഡസ്ക്ടോപ്പില്‍ ഏത് ഇന്‍പുട്ട് രീതി ഉപയോഗിക്കണം അല്ലെങ്കില്‍ ഏത് നിര്‍ജ്ജീവമാക്കണം എന്ന് തിരഞ്ഞെടുക്കുക"
++"ഡസ്ക്ടോപ്പില്‍ ഏത് ഇന്‍പുട്ട് രീതി ഉപയോഗിക്കണം അല്ലെങ്കില്‍ ഏത് "
++"നിര്‍ജ്ജീവമാക്കണം എന്ന് തിരഞ്ഞെടുക്കുക"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+ msgstr ""
++"കൂടുതല്‍ വിവരങ്ങള്‍ക്കായി ദയവായി <a href=\"file://%s\">%s</a> പരിശോധിയ്ക്കുക"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "സെഷന്‍ മാനേജറിലേക്കു് കണക്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[ഐച്ഛികങ്ങള്‍...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "ആര്‍ഗ്യുമെന്റുകള്‍ പാഴ്സ് ചെയ്യുവാന്‍ സാധ്യമായില്ല: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "ഇന്‍പുട്ട് രീതി ലഭ്യമല്ല"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "തിരുത്തുവാന്‍ സാധ്യമല്ലാത്ത പിശക്"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "പുറത്ത് കടക്കുക "
+ 
+diff -urN a/im-chooser-1.6.4/po/mr.po b/im-chooser-1.6.4/po/mr.po
+--- a/im-chooser-1.6.4/po/mr.po	2013-11-28 16:57:26.874046148 +0530
++++ b/im-chooser-1.6.4/po/mr.po	2013-11-28 16:58:35.107665152 +0530
+@@ -1,26 +1,25 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Rahul Bhalerao <b.rahul.pm@gmail.com>, 2006.
+ # Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
+ # sandeeps <sshedmak@redhat.com>, 2011.
+-# sandeeps <sandeeps@fedoraproject.org>, 2012. #zanata
++# sandeeps <sshedmak@redhat.com>, 2011, 2013.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: im-chooser\n"
++"Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-08-28 01:03-0400\n"
+-"Last-Translator: sandeeps <sandeeps@fedoraproject.org>\n"
+-"Language-Team: Marathi (http://www.transifex.net/projects/p/im-chooser/team/"
+-"mr/)\n"
+-"Language: mr\n"
++"POT-Creation-Date: 2013-08-06 14:45+0530\n"
++"PO-Revision-Date: 2013-10-18 04:45-0400\n"
++"Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
++"Language-Team: Marathi <sshedmak@redhat.com>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"Language: mr\n"
++"Plural-Forms: nplurals=2; plural=(n!=1)\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -142,7 +141,8 @@
+ #: ../libimchooseui/imchooseui.c:331
+ #, c-format
+ msgid "Please install any input methods before running if you like."
+-msgstr "कृपया कुठलेही इंपुट पध्दती कार्यान्वीत करण्यापूर्वी त्यास प्रतिष्ठापीत करा."
++msgstr ""
++"कृपया कुठलेही इंपुट पध्दती कार्यान्वीत करण्यापूर्वी त्यास प्रतिष्ठापीत करा."
+ 
+ #: ../libimchooseui/imchooseui.c:404
+ msgid "Unable to get the information"
+@@ -190,7 +190,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -205,7 +206,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -219,7 +221,8 @@
+ msgid ""
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+-msgstr "<small><i>टिप: पुढील लॉगीन %s पर्यंत हे बदल लागू होणार नाही</i></small>"
++msgstr ""
++"<small><i>टिप: पुढील लॉगीन %s पर्यंत हे बदल लागू होणार नाही</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -231,24 +234,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ट्रिकरीता ऑब्जेक्ट प्राप्त करणे अशक्य"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "विजेट"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "कप्प्यात समाविष्ट करण्यासाठी विजेट"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "स्पेसिंग"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "लेबल अंतर्गत मोकळी जागा"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "इंपुट मेथड नीवडक"
+ 
+@@ -258,35 +263,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"वापरावयाची इनपुट पद्धती निवडण्याचे किंवा डेस्कटॉपवरील इनपुट पद्धतीचा वापर अकार्यक्षम करा"
++"वापरावयाची इनपुट पद्धती निवडण्याचे किंवा डेस्कटॉपवरील इनपुट पद्धतीचा वापर "
++"अकार्यक्षम करा"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "अधिक तपशीलकरिता कृपया <a href=\"file://%s\">%s</a> तपासा"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "सत्र व्यवस्थापकाशी जोडणी करणे अशक्य"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[पर्याय...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "घटके वाचणे अशक्य: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "इंपुट पद्धती अनुपलब्ध"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "विनाप्राप्यजोगी त्रुटी"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "लॉग आउट"
+ 
+diff -urN a/im-chooser-1.6.4/po/or.po b/im-chooser-1.6.4/po/or.po
+--- a/im-chooser-1.6.4/po/or.po	2013-11-28 16:57:26.873046138 +0530
++++ b/im-chooser-1.6.4/po/or.po	2013-11-28 16:58:35.107665152 +0530
+@@ -1,25 +1,25 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Manoj Kumar Giri <giri.manojkr@gmail.com>, 2008.
+ # Subhransu Behera <sbehera@redhat.com>, 2006.
+ # Manoj Kumar Giri <mgiri@redhat.com>, 2008.
+-# mgiri <mgiri@fedoraproject.org>, 2012. #zanata
++# mgiri <mgiri@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-10-01 09:07-0400\n"
+-"Last-Translator: mgiri <mgiri@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-10-22 10:55-0400\n"
++"Last-Translator: mgiri <mgiri@redhat.com>\n"
+ "Language-Team: LANGUAGE <LL@li.org>\n"
+-"Language: or\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: or\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -141,7 +141,8 @@
+ #: ../libimchooseui/imchooseui.c:331
+ #, c-format
+ msgid "Please install any input methods before running if you like."
+-msgstr "ଯଦି ଆପଣ ଚାହାନ୍ତି ଚଲାଇବା ପୂର୍ବରୁ ଦୟାକରି କୌଣସି ନିବେଶ ପ୍ରଣାଳୀକୁ ସ୍ଥାପନ କରନ୍ତୁ।"
++msgstr ""
++"ଯଦି ଆପଣ ଚାହାନ୍ତି ଚଲାଇବା ପୂର୍ବରୁ ଦୟାକରି କୌଣସି ନିବେଶ ପ୍ରଣାଳୀକୁ ସ୍ଥାପନ କରନ୍ତୁ।"
+ 
+ #: ../libimchooseui/imchooseui.c:404
+ msgid "Unable to get the information"
+@@ -189,7 +190,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -204,7 +206,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -219,8 +222,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>ଟିପ୍ପଣୀ: ଏହି ପରିବର୍ତ୍ତନ ଆପଣଙ୍କର ପରବର୍ତ୍ତୀ ଲଗଇନ %s ପର୍ଯ୍ୟନ୍ତ କାର୍ଯ୍ୟକାରୀ ହୋଇନଥାଏ</"
+-"i></small>"
++"<small><i>ଟିପ୍ପଣୀ: ଏହି ପରିବର୍ତ୍ତନ ଆପଣଙ୍କର ପରବର୍ତ୍ତୀ ଲଗଇନ %s ପର୍ଯ୍ୟନ୍ତ "
++"କାର୍ଯ୍ୟକାରୀ ହୋଇନଥାଏ</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -232,24 +235,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ଟ୍ରୀ ପାଇଁ ବସ୍ତୁ ପାଇବାରେ ଅସମର୍ଥ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "ୱିଜେଟ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "ସେଲରେ ଧାରଣ କରାଯାଇଥିବା ୱିଜେଟ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "ଖାଲି ସ୍ଥାନ ଦେବା"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "ନାମପଟି ମଧ୍ଯବର୍ତ୍ତୀ ଖାଲିସ୍ଥାନ"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "ନିବେଶ ପ୍ରଣାଳୀ ଚୟନକାରୀ"
+ 
+@@ -259,36 +264,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"ବ୍ଯବହାର କରିବାକୁ ଥିବା ନିବେଶ ପ୍ରଣାଳୀକୁ ଚୟନ କରନ୍ତୁ କିମ୍ବା ଡେସ୍କଟପରେ ନିବେଶ ପ୍ରଣାଳୀର ବ୍ଯବହାର ବିଧିକୁ "
+-"ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"
++"ବ୍ଯବହାର କରିବାକୁ ଥିବା ନିବେଶ ପ୍ରଣାଳୀକୁ ଚୟନ କରନ୍ତୁ କିମ୍ବା ଡେସ୍କଟପରେ ନିବେଶ "
++"ପ୍ରଣାଳୀର ବ୍ଯବହାର ବିଧିକୁ ନିଷ୍କ୍ରିୟ କରନ୍ତୁ"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "ଅଧିକ ବିବରଣୀ ପାଇଁ <a href=\"file://%s\">%s</a> କୁ ଦେଖନ୍ତୁ"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "ଅଧିବେଶନ ପରିଚାଳକ ସହିତ ସଂଯୋଗ ହୋଇପାରିଲା ନାହିଁ"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[ବିକଳ୍ପଗୁଡ଼ିକ...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "ସ୍ୱତନ୍ତ୍ରଚରଗୁଡ଼ିକୁ ବିଶ୍ଳେଷଣ କରିପାରିଲା ନାହିଁ: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "କୌଣସି ନିବେଶ ପ୍ରଣାଳୀ ଉପଲବ୍ଧ ନାହିଁ"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "ଠିକ ହୋଇପାରୁନଥିବା ତ୍ରୁଟି"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "ଲଗଆଉଟ କରନ୍ତୁ"
+ 
+diff -urN a/im-chooser-1.6.4/po/pa.po b/im-chooser-1.6.4/po/pa.po
+--- a/im-chooser-1.6.4/po/pa.po	2013-11-28 16:57:26.868046093 +0530
++++ b/im-chooser-1.6.4/po/pa.po	2013-11-28 16:58:35.107665152 +0530
+@@ -1,28 +1,28 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # A S Alam <aalam@users.sf.net>, 2007.
+ # Jaswinder Singh <jsingh@redhat.com>, 2006, 2008, 2009.
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+ # A S Alam <apreet.alam@gmail.com>, 2011.
+ # Translators:
+-# jassy <jassy@fedoraproject.org>, 2012. #zanata
++# asaini <asaini@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-08-30 06:52-0400\n"
+-"Last-Translator: jassy <jassy@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-10-08 04:57-0400\n"
++"Last-Translator: asaini <asaini@redhat.com>\n"
+ "Language-Team: Panjabi (Punjabi) (http://www.transifex.net/projects/p/im-"
+ "chooser/team/pa/)\n"
+-"Language: pa\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: pa\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -144,7 +144,8 @@
+ #: ../libimchooseui/imchooseui.c:331
+ #, c-format
+ msgid "Please install any input methods before running if you like."
+-msgstr "ਜੇ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ ਵੀ ਇੱਪੁੱਟ ਢੰਗ ਇੰਸਟਾਲ ਕਰੋ।"
++msgstr ""
++"ਜੇ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਚਲਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕੋਈ ਵੀ ਇੱਪੁੱਟ ਢੰਗ ਇੰਸਟਾਲ ਕਰੋ।"
+ 
+ #: ../libimchooseui/imchooseui.c:404
+ msgid "Unable to get the information"
+@@ -192,7 +193,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -207,7 +209,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -222,8 +225,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>ਨੋਟ: ਇਹ ਬਦਲਾਅ ਤੁਹਾਡੇ ਵਲੋਂ ਅਗਲੀ ਵਾਰ ਲਾਗਇਨ ਕਰਨ ਤੱਕ ਪ੍ਰਭਾਵੀ ਨਹੀਂ ਹੋਣਗੇ%s</i></"
+-"small>"
++"<small><i>ਨੋਟ: ਇਹ ਬਦਲਾਅ ਤੁਹਾਡੇ ਵਲੋਂ ਅਗਲੀ ਵਾਰ ਲਾਗਇਨ ਕਰਨ ਤੱਕ ਪ੍ਰਭਾਵੀ ਨਹੀਂ "
++"ਹੋਣਗੇ%s</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -235,24 +238,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ਟਰੀ ਲਈ ਆਬਜੈਕਟ ਪ੍ਰਾਪਤ ਕਰਨ ਤੋਂ ਅਸਮਰਥ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "ਵਿਡਜਿਟ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "ਸੈੱਲ ਵਿੱਚ ਰੱਖਣ ਵਾਲਾ ਵਿਡਜਿਟ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "ਦੂਰੀ"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "ਲੇਬਲ ਵਿੱਚ ਦੂਰੀ ਦੀ ਮਾਤਰਾ"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "ਇੰਪੁੱਟ ਢੰਗ ਚੋਣਕਾਰ"
+ 
+@@ -261,35 +266,44 @@
+ msgid ""
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+-msgstr "ਵਰਤਣ ਲਈ ਇੰਪੁੱਟ ਢੰਗ ਚੁਣੋ ਜਾਂ ਡੈਸਕਟਾਪ ਵਾਸਤੇ ਇੰਪੁੱਟ ਢੰਗ ਦੀ ਵਰਤੋਂ ਨੂੰ ਅਯੋਗ ਕਰੋ।"
++msgstr ""
++"ਵਰਤਣ ਲਈ ਇੰਪੁੱਟ ਢੰਗ ਚੁਣੋ ਜਾਂ ਡੈਸਕਟਾਪ ਵਾਸਤੇ ਇੰਪੁੱਟ ਢੰਗ ਦੀ ਵਰਤੋਂ ਨੂੰ ਅਯੋਗ ਕਰੋ।"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "ਹੋਰ ਵੇਰਵਿਆਂ ਲਈ ਕਿਰਪਾ ਕਰ ਕੇ <a href=\"file://%s\">%s</a> ਜਾਂਚੋ"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਨਾਲ ਜੁੜ ਨਹੀਂ ਸਕਿਆ"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[ਚੋਣਾਂ...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "ਆਰਗੂਮੈਂਟ ਪਾਰਸ ਨਹੀਂ ਕਰ ਸਕਿਆ: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "ਕੋਈ ਇੰਪੁੱਟ ਢੰਗ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "ਨਾ-ਸੋਧਣ ਯੋਗ ਗਲਤੀ"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "ਲਾਗ ਆਊਟ"
+ 
+diff -urN a/im-chooser-1.6.4/po/pt_BR.po b/im-chooser-1.6.4/po/pt_BR.po
+--- a/im-chooser-1.6.4/po/pt_BR.po	2013-11-28 16:57:26.874046148 +0530
++++ b/im-chooser-1.6.4/po/pt_BR.po	2013-11-28 16:58:35.107665152 +0530
+@@ -1,29 +1,29 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Frederico Madeira <fred@madeira.eng.br>, 2008.
+ # Glaucia Cintra <gcintra@redhat.com>, 2008.
+ # Igor Pires Soares <igor@projetofedora.org>, 2007, 2008.
+ # Wilson Campos <wcampos5@gmail.com>, 2008.
+ # Cleiton cleitonlima <cleitonlima@lavabit.com>, 2011.
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+-# gcintra <gcintra@fedoraproject.org>, 2012. #zanata
++# gcintra <gcintra@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-08-13 08:36-0400\n"
+-"Last-Translator: gcintra <gcintra@fedoraproject.org>\n"
++"PO-Revision-Date: 2013-09-30 08:30-0400\n"
++"Last-Translator: gcintra <gcintra@redhat.com>\n"
+ "Language-Team: Portuguese (Brazilian) (http://www.transifex.net/projects/p/"
+ "im-chooser/team/pt_BR/)\n"
+-"Language: pt-BR\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: pt-BR\n"
+ "Plural-Forms: nplurals=2; plural=(n > 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -59,7 +59,8 @@
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+ msgstr ""
+-"Não é possível passar a URI do documento para uma entrada desktop 'Type=Link'"
++"Não é possível passar a URI do documento para uma entrada desktop 'Type="
++"Link'"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:1412
+ #, c-format
+@@ -196,7 +197,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -211,7 +213,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -239,24 +242,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "Não foi possível obter o objeto para árvore"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "Widget"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "Widget para conter na célula"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "Espaçamento"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "A quantidade de espaço entre etiquetas"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "Seletor de Método de entrada"
+ 
+@@ -266,35 +271,45 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"Escolha ou desabilite o método de entrada a ser usado no ambiente de trabalho"
++"Escolha ou desabilite o método de entrada a ser usado no ambiente de "
++"trabalho"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+ msgstr ""
++"Por favor verifique <a href=\"file://%s\">%s</a> para obter mais detalhes"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "Não foi possível se conectar ao gerenciador de sessão"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[opções..]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "Não foi possível analisar os argumentos: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "Nenhum método de entrada disponível"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "Erro irrecuperável"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "Encerrar sessão"
+ 
+diff -urN a/im-chooser-1.6.4/po/ru.po b/im-chooser-1.6.4/po/ru.po
+--- a/im-chooser-1.6.4/po/ru.po	2013-11-28 16:57:26.874046148 +0530
++++ b/im-chooser-1.6.4/po/ru.po	2013-11-28 16:58:35.107665152 +0530
+@@ -1,28 +1,27 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Yulia Poyarkova <ypoyarko@redhat.com>, 2006.
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+ # Yulia Poyarkova <yulia.poyarkova@redhat.com>, 2008, 2009.
+-# ypoyarko <ypoyarko@redhat.com>, 2012. #zanata
+ # ypoyarko <ypoyarko@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2013-04-03 09:29-0400\n"
++"PO-Revision-Date: 2013-10-30 09:25-0400\n"
+ "Last-Translator: ypoyarko <ypoyarko@redhat.com>\n"
+ "Language-Team: Russian (http://www.transifex.net/projects/p/im-chooser/team/"
+ "ru/)\n"
+-"Language: ru\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"Language: ru\n"
++"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
++"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -192,7 +191,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -207,7 +207,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -234,24 +235,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "Не удалось получить объект дерева"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "Виджет"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "Виджет для включения в ячейку"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "Пробелы"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "Число пробелов между метками"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "Выбор метода ввода"
+ 
+@@ -265,30 +268,38 @@
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "За дальнейшей информацией обратитесь к <a href=\"file://%s\">%s</a>"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "Ошибка подключения к менеджеру сеанса"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[параметры...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "Ошибка разбора аргументов: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "Нет методов ввода"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "Критическая ошибка"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "Выход"
+ 
+diff -urN a/im-chooser-1.6.4/po/ta.po b/im-chooser-1.6.4/po/ta.po
+--- a/im-chooser-1.6.4/po/ta.po	2013-11-28 16:57:26.871046121 +0530
++++ b/im-chooser-1.6.4/po/ta.po	2013-11-28 16:58:35.107665152 +0530
+@@ -1,24 +1,24 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Felix <ifelix@redhat.com>, 2006.
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+-# Shantha kumar <shkumar@redhat.com>, 2012. #zanata
++# shkumar <shkumar@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-11-20 04:47-0500\n"
+-"Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
++"PO-Revision-Date: 2013-11-11 10:27-0500\n"
++"Last-Translator: shkumar <shkumar@redhat.com>\n"
+ "Language-Team: LANGUAGE <LL@li.org>\n"
+-"Language: ta-IN\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: ta\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -188,7 +188,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -203,7 +204,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -218,8 +220,8 @@
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+ msgstr ""
+-"<small><i>குறிப்பு: நீங்கள் %s இல் அடுத்த முறை புகுபதிவு செய்யும் வரை இந்த மாற்றம் "
+-"விளைவை ஏற்படுத்தாது</i></small>"
++"<small><i>குறிப்பு: நீங்கள் %s இல் அடுத்த முறை புகுபதிவு செய்யும் வரை இந்த "
++"மாற்றம் விளைவை ஏற்படுத்தாது</i></small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -231,24 +233,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "கிளையமைப்புக்கான பொருளைப் பெற முடியவில்லை"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "விட்ஜெட்"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "கலத்துக்குள் கொண்டிருக்க வேண்டிய விட்ஜெட்"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "இடைவெளியமைப்பு"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "லேபிளுக்கு இடையிலான இடைவெளியின் அளவு"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "உள்ளீடு முறை தேர்ந்தெடுப்பாளர்"
+ 
+@@ -258,36 +262,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"பயன்படுத்த அல்லது உள்ளீடு முறை பயன்பாட்டை பணிமேடையில் செயல்நீக்க உள்ளீடு முறையை "
+-"தேர்ந்தெடுக்கவும்"
++"பயன்படுத்த அல்லது உள்ளீடு முறை பயன்பாட்டை பணிமேடையில் செயல்நீக்க உள்ளீடு "
++"முறையை தேர்ந்தெடுக்கவும்"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "மேலும் விவரங்களுக்கு <a href=\"file://%s\">%s</a> ஐப் பார்க்கவும்"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "அமர்வு மேலாளருக்கு இணைக்க முடியவில்லை"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[விருப்பங்கள்...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "விவாரங்களை இடைநிறுத்த முடியவில்லை: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "உள்ளீடு முறை கிடைக்கவில்லை"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "சரிசெய்ய முடியாத பிழை"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "வெளியேறுதல்"
+ 
+diff -urN a/im-chooser-1.6.4/po/te.po b/im-chooser-1.6.4/po/te.po
+--- a/im-chooser-1.6.4/po/te.po	2013-11-28 16:57:26.871046121 +0530
++++ b/im-chooser-1.6.4/po/te.po	2013-11-28 16:58:35.107665152 +0530
+@@ -1,24 +1,24 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Krishna Babu K <kkrothap@redhat.com>, 2008.
+-# kkrothap <kkrothap@fedoraproject.org>, 2012. #zanata
++# Krishna Babu K <kkrothap@redhat.com>, 2008, 2013.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: im-chooser\n"
++"Project-Id-Version: PACKAGE VERSION\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-05-28 10:47+0900\n"
++"POT-Creation-Date: 2013-08-06 14:45+0530\n"
+ "PO-Revision-Date: 2012-08-28 08:27-0400\n"
+ "Last-Translator: kkrothap <kkrothap@fedoraproject.org>\n"
+ "Language-Team: Telugu (http://www.transifex.net/projects/p/im-chooser/team/"
+ "te/)\n"
+-"Language: te\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: te\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -140,7 +140,8 @@
+ #: ../libimchooseui/imchooseui.c:331
+ #, c-format
+ msgid "Please install any input methods before running if you like."
+-msgstr "మీరు ఇష్టపడితే ఏ ఇన్‌పుట్ పద్దతులైనా దయచేసి నడుపుటకు ముందుగా సంస్థాపించుము."
++msgstr ""
++"మీరు ఇష్టపడితే ఏ ఇన్‌పుట్ పద్దతులైనా దయచేసి నడుపుటకు ముందుగా సంస్థాపించుము."
+ 
+ #: ../libimchooseui/imchooseui.c:404
+ msgid "Unable to get the information"
+@@ -188,7 +189,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -203,7 +205,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -217,7 +220,9 @@
+ msgid ""
+ "<small><i>Note: this change will not take effect until your next log in%s</"
+ "i></small>"
+-msgstr "<small><i>గమనిక: మీ తరువాతి లాగిన్ వరకు యీ మార్పు ప్రభావితం కాదు%s</i></small>"
++msgstr ""
++"<small><i>గమనిక: మీ తరువాతి లాగిన్ వరకు యీ మార్పు ప్రభావితం కాదు%s</i></"
++"small>"
+ 
+ #: ../libimchooseui/imchooseui.c:704
+ #, c-format
+@@ -229,24 +234,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "ట్రీ కొరకు ఆబ్జక్టును పొందలేక పోయింది"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "విడ్జట్"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "అర నందు కలిగివుండుటకు విడ్జట్"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "క్రమాంతరీకరణ(స్పేసింగ్)"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "లేబుల్ మద్యన ఖాళీ పరిమాణం"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "ఇన్పుట్ పద్ధతి యెంపిక"
+ 
+@@ -256,35 +263,44 @@
+ "Choose the input method to be used or disable the input method usage on the "
+ "desktop"
+ msgstr ""
+-"ఉపయోగించుటకు ఇన్‌పుట్ పద్దతిని ఎంచుకొనుము లేదా ఇన్‌పుట్ పద్దతి ఉపయోగాన్ని డెస్క్‍‌టాప్ పైన అచేతనం చేయుము"
++"ఉపయోగించుటకు ఇన్‌పుట్ పద్దతిని ఎంచుకొనుము లేదా ఇన్‌పుట్ పద్దతి ఉపయోగాన్ని "
++"డెస్క్‍‌టాప్ పైన అచేతనం చేయుము"
+ 
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "మరిన్ని వివరాల కొరకు దయచేసి <a href=\"file://%s\">%s</a> చూడండి"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "సెషన్ నిర్వాహికకు అనుసంధానం కాలేదు"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[ఐచ్చికాలు...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "ఆర్గుమెంట్లను పార్శ్ చేయలేక పోయింది: %s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "ఏ యిన్పుట్ పద్ధతి అందుబాటులో లేదు"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "కోలుకోలేని దోషం"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "లాగ్ అవుట్"
+ 
+diff -urN a/im-chooser-1.6.4/po/zh_CN.po b/im-chooser-1.6.4/po/zh_CN.po
+--- a/im-chooser-1.6.4/po/zh_CN.po	2013-11-28 16:57:26.872046130 +0530
++++ b/im-chooser-1.6.4/po/zh_CN.po	2013-11-28 16:58:35.107665152 +0530
+@@ -1,29 +1,29 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Translators:
+ # Leah Liu <lliu@redhat.com>, 2008, 2009.
+ #   <lovenemesis@gmail.com>, 2011.
+ # lovenemesis <lovenemesis@gmail.com>, 2011.
+ # Mike Ma <zhtx10@gmail.com>, 2011.
+ # Tony Fu <tfu@redhat.com>, 2006.
+-# leahliu <lliu@redhat.com>, 2012. #zanata
++# Leah Liu <lliu@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-08-07 11:30-0400\n"
+-"Last-Translator: leahliu <lliu@redhat.com>\n"
++"PO-Revision-Date: 2013-11-04 09:33-0500\n"
++"Last-Translator: Leah Liu <lliu@redhat.com>\n"
+ "Language-Team: Chinese (China) (http://www.transifex.net/projects/p/im-"
+ "chooser/team/zh_CN/)\n"
+-"Language: zh-Hans-CN\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: zh-CN\n"
+ "Plural-Forms: nplurals=1; plural=0\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -193,7 +193,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -208,7 +209,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -234,24 +236,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "无法获得树的对象"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "控件"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "需要包含在单元格中的控件"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "间距"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "标签之间的空间"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "输入法选择器"
+ 
+@@ -265,30 +269,38 @@
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "详情请查看 <a href=\"file://%s\">%s</a>。"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "无法连接到会话管理器"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[选项...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "无法解析参数：%s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "没有可用的输入法"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "无法恢复的错误"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "注销"
+ 
+diff -urN a/im-chooser-1.6.4/po/zh_TW.po b/im-chooser-1.6.4/po/zh_TW.po
+--- a/im-chooser-1.6.4/po/zh_TW.po	2013-11-28 16:57:26.867046084 +0530
++++ b/im-chooser-1.6.4/po/zh_TW.po	2013-11-28 16:58:35.108665161 +0530
+@@ -1,29 +1,29 @@
+ # SOME DESCRIPTIVE TITLE.
+ # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the PACKAGE package.
+-#
++# 
+ # Translators:
+ # Akira  <akira+transifex@tagoh.org>, 2011.
+ # Cheng-Chia Tseng <pswo10680@gmail.com>, 2011.
+ # Chester Cheng <ccheng@redhat.com>, 2006.
+ # Terry Chuang <tchuang@redhat.com>, 2008.
+ # Walter Cheuk <wwycheuk@gmail.com>, 2007.
+-# zerng07 <pswo10680@gmail.com>, 2012. #zanata
++# ccheng <ccheng@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: im-chooser\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-05-28 10:47+0900\n"
+-"PO-Revision-Date: 2012-07-24 12:31-0400\n"
+-"Last-Translator: zerng07 <pswo10680@gmail.com>\n"
++"PO-Revision-Date: 2013-09-26 09:39-0400\n"
++"Last-Translator: ccheng <ccheng@redhat.com>\n"
+ "Language-Team: Chinese (Taiwan) (http://www.transifex.net/projects/p/im-"
+ "chooser/team/zh_TW/)\n"
+-"Language: zh-Hant-TW\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Language: zh-TW\n"
+ "Plural-Forms: nplurals=1; plural=0\n"
+-"X-Generator: Zanata 2.2.2\n"
++"X-Generator: Zanata 3.1.2\n"
+ 
+ #: ../libimchooseui/eggdesktopfile.c:165
+ #, c-format
+@@ -193,7 +193,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and Qt applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications and GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications and Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:664 ../libimchooseui/imchooseui.c:669
++#: ../libimchooseui/imchooseui.c:664
++#: ../libimchooseui/imchooseui.c:669
+ #: ../libimchooseui/imchooseui.c:674
+ #, c-format
+ msgid ", except %s and %s"
+@@ -208,7 +209,8 @@
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except X applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except GTK+ applications</i></small>"
+ #. This will be displayed like "<small><i>Note: this change will not take effect until your next log in, except Qt applications</i></small>"
+-#: ../libimchooseui/imchooseui.c:679 ../libimchooseui/imchooseui.c:683
++#: ../libimchooseui/imchooseui.c:679
++#: ../libimchooseui/imchooseui.c:683
+ #: ../libimchooseui/imchooseui.c:687
+ #, c-format
+ msgid ", except %s"
+@@ -234,24 +236,26 @@
+ msgid "Unable to obtain the object for tree"
+ msgstr "無法取得 tree 的物件"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:252
++#: ../libimchooseui/imchooseuicellrendererlabel.c:244
+ msgid "Widget"
+ msgstr "工具組"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:253
++#: ../libimchooseui/imchooseuicellrendererlabel.c:245
+ msgid "Widget to contain in the cell"
+ msgstr "包含在巢格內的 Widget"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:259
++#: ../libimchooseui/imchooseuicellrendererlabel.c:251
+ msgid "Spacing"
+ msgstr "間距"
+ 
+-#: ../libimchooseui/imchooseuicellrendererlabel.c:260
++#: ../libimchooseui/imchooseuicellrendererlabel.c:252
+ msgid "The amount of space between label"
+ msgstr "標籤間的空間"
+ 
+-#: ../src/app/im-chooser.desktop.in.in.h:1 ../src/app/main.c:214
+-#: ../src/xfce/main.c:262 ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
++#: ../src/app/im-chooser.desktop.in.in.h:1
++#: ../src/app/main.c:214
++#: ../src/xfce/main.c:262
++#: ../src/xfce/xfce4-im-chooser.desktop.in.in.h:1
+ msgid "Input Method Selector"
+ msgstr "輸入法選擇器"
+ 
+@@ -265,30 +269,38 @@
+ #: ../src/app/main.c:97
+ #, c-format
+ msgid "Please check <a href=\"file://%s\">%s</a> for more details"
+-msgstr ""
++msgstr "欲知詳情，請檢查 <a href=\"file://%s\">%s</a>"
+ 
+-#: ../src/app/main.c:146 ../src/xfce/main.c:139
++#: ../src/app/main.c:146
++#: ../src/xfce/main.c:139
+ msgid "Could not connect to the session manager"
+ msgstr "無法連接至作業階段管理員"
+ 
+-#: ../src/app/main.c:165 ../src/xfce/main.c:159
++#: ../src/app/main.c:165
++#: ../src/xfce/main.c:159
+ msgid "[options...]"
+ msgstr "[選項...]"
+ 
+-#: ../src/app/main.c:187 ../src/xfce/main.c:180
++#: ../src/app/main.c:187
++#: ../src/xfce/main.c:180
+ #, c-format
+ msgid "Could not parse arguments: %s\n"
+ msgstr "無法解析引數：%s\n"
+ 
+-#: ../src/app/main.c:204 ../src/xfce/main.c:238 ../src/xfce/main.c:253
++#: ../src/app/main.c:204
++#: ../src/xfce/main.c:238
++#: ../src/xfce/main.c:253
+ msgid "No input method is available"
+ msgstr "沒有可用的輸入法"
+ 
+-#: ../src/app/main.c:207 ../src/xfce/main.c:241 ../src/xfce/main.c:256
++#: ../src/app/main.c:207
++#: ../src/xfce/main.c:241
++#: ../src/xfce/main.c:256
+ msgid "Unrecoverable error"
+ msgstr "無法回復的錯誤"
+ 
+-#: ../src/app/main.c:219 ../src/xfce/main.c:267
++#: ../src/app/main.c:219
++#: ../src/xfce/main.c:267
+ msgid "Log Out"
+ msgstr "登出"
+ 

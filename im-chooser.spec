@@ -8,7 +8,7 @@
 
 Name:		im-chooser
 Version:	1.6.4
-Release:	1%{?dist}
+Release:	4%{?dist}
 License:	GPLv2+ and LGPLv2+
 URL:		http://fedorahosted.org/im-chooser/
 %{?_with_gtk2:BuildRequires:	gtk2-devel}
@@ -20,6 +20,7 @@ BuildRequires:	libxfce4util-devel
 BuildRequires:	desktop-file-utils intltool gettext
 
 Source0:	http://fedorahosted.org/releases/i/m/%{name}/%{name}-%{version}.tar.bz2
+Patch0:		%{name}-1.6.4-translation-updates.patch
 
 Summary:	Desktop Input Method configuration tool
 Group:		Applications/System
@@ -63,6 +64,7 @@ This package contains the XFCE settings panel for im-chooser.
 
 %prep
 %setup -q
+%patch0 -p2 -b .0-trans
 
 %build
 %configure
@@ -132,6 +134,15 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %endif
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.6.4-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.6.4-3
+- Mass rebuild 2013-12-27
+
+* Mon Dec 16 2013 Akira TAGOH <tagoh@redhat.com> - 1.6.4-2
+- Update translations (#1030359)
+
 * Tue Jun 11 2013 Akira TAGOH <tagoh@redhat.com> - 1.6.4-1
 - New upstream release.
 - Remove BR: docbook2X
