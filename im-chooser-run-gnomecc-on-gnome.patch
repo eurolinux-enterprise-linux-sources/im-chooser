@@ -1,0 +1,40 @@
+diff -pruN im-chooser-1.6.4.orig/libimchooseui/imchooseui.c im-chooser-1.6.4/libimchooseui/imchooseui.c
+--- im-chooser-1.6.4.orig/libimchooseui/imchooseui.c	2013-01-18 03:19:42.000000000 +0000
++++ im-chooser-1.6.4/libimchooseui/imchooseui.c	2019-02-25 10:51:13.828775637 +0000
+@@ -267,6 +267,14 @@ _imchoose_ui_update_list(IMChooseUI *ui,
+ 		n_retry++;
+ 		goto retry;
+ 	}
++	if (!imsettings_client_is_supported_desktop(client, NULL, &err)) {
++		if (err) {
++			g_error_free(err);
++			err = NULL;
++		}
++		g_spawn_command_line_async("gnome-control-center region", &err);
++		goto bail;
++	}
+ 
+ 	active_info = imsettings_client_get_active_im_info(client, NULL, &err);
+ 	if (err)
+@@ -739,7 +747,8 @@ imchoose_ui_get(IMChooseUI  *ui,
+ 
+ 	retval = GTK_WIDGET (g_object_ref(gtk_builder_get_object(builder, "root")));
+ 	g_object_set_data(tree, "imchoose-ui", ui);
+-	_imchoose_ui_update_list(ui, GTK_WIDGET (tree), &err);
++	if (!_imchoose_ui_update_list(ui, GTK_WIDGET (tree), &err))
++		retval = NULL;
+ 	if (err)
+ 		goto bail;
+   bail:
+diff -pruN im-chooser-1.6.4.orig/src/app/main.c im-chooser-1.6.4/src/app/main.c
+--- im-chooser-1.6.4.orig/src/app/main.c	2013-04-12 07:55:59.000000000 +0000
++++ im-chooser-1.6.4/src/app/main.c	2019-02-25 10:52:30.564740513 +0000
+@@ -209,6 +209,8 @@ main(int    argc,
+ 		}
+ 		goto bail;
+ 	}
++	if (!widget)
++		goto bail;
+ 	progress = imchoose_ui_get_progress_dialog(ui, &err);
+ 
+ 	gtk_window_set_title(GTK_WINDOW (window), _("Input Method Selector"));

@@ -8,12 +8,12 @@
 
 Name:		im-chooser
 Version:	1.6.4
-Release:	4%{?dist}
+Release:	6%{?dist}
 License:	GPLv2+ and LGPLv2+
 URL:		http://fedorahosted.org/im-chooser/
 %{?_with_gtk2:BuildRequires:	gtk2-devel}
 %{!?_with_gtk2:BuildRequires:	gtk3-devel}
-BuildRequires:	libSM-devel imsettings-devel >= 1.3.0
+BuildRequires:	libSM-devel imsettings-devel >= 1.6.3-11
 %if 0%{?_with_xfce}
 BuildRequires:	libxfce4util-devel
 %endif
@@ -21,6 +21,8 @@ BuildRequires:	desktop-file-utils intltool gettext
 
 Source0:	http://fedorahosted.org/releases/i/m/%{name}/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-1.6.4-translation-updates.patch
+Patch1:		%{name}-run-gnomecc-on-gnome.patch
+Patch2:		%{name}-hide-from-menu.patch
 
 Summary:	Desktop Input Method configuration tool
 Group:		Applications/System
@@ -35,7 +37,7 @@ to be used or disable Input Method usage on the desktop.
 %package	common
 Summary:	Common files for im-chooser subpackages
 Group:		Applications/System
-Requires:	imsettings >= 1.3.0
+Requires:	imsettings >= 1.6.3-11
 Obsoletes:	im-chooser < 1.5.0.1
 ## https://fedorahosted.org/fpc/ticket/174
 Provides:	bundled(egglib)
@@ -65,6 +67,8 @@ This package contains the XFCE settings panel for im-chooser.
 %prep
 %setup -q
 %patch0 -p2 -b .0-trans
+%patch1 -p1 -b .1-gnomecc
+%patch2 -p1 -b .2-hide
 
 %build
 %configure
@@ -134,6 +138,10 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %endif
 
 %changelog
+* Mon Feb 25 2019 Akira TAGOH <tagoh@redhat.com> - 1.6.4-6
+- Bring up gnome-control-center region if current desktop is GNOME.
+- Hide application from menu. (#1657016)
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.6.4-4
 - Mass rebuild 2014-01-24
 
